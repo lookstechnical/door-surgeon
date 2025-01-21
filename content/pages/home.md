@@ -13,6 +13,6 @@ content:
     Link: tel:07912294111
     type: hero
     link: tel:07912 294 111
-    image: /images/uploads/double-glazed-unit.webp
+    image: static/images/uploads/install-windows.webp
     linkTitle: 07912 294 111
 ---
