@@ -3,25 +3,25 @@ import { Animate } from "../animate/animation";
 
 export const ServiceList = () => {
   return (
-    <section className="container max-w-[1200px] mx-auto py-20 flex flex-col ">
-      <div className="md:w-full flex md:flex-row justify-end items-end gap-10">
+    <section className="container max-w-[1200px] mx-auto py-20 flex flex-col px-4">
+      <div className="flex-col md:w-full flex md:flex-row justify-end items-end gap-10">
         <div>
           <p className="text-primary text-lg pb-2">Commerical or Residential</p>
           <h2 className="text-6xl">What Services Do We Provide?</h2>
         </div>
-        <div className="text-right">
-          <p className="pt-6 text-xl">
+        <div className="md:text-right">
+          <p className="md:pt-6 text-xl">
             At Door Surgeon, we provide a wide range of services to both
             commercial and residential customers.
           </p>
         </div>
       </div>
       <div className="py-10">
-        <ul className="flex flex-row flex-wrap gap-4 overflow-hidden pt-10">
+        <ul className="grid grid-cols-1 md:grid-cols-4 flex-wrap gap-4 overflow-hidden pt-10">
           <Animate
             as="li"
             variant="FadeInBottom"
-            className="flex-1 flex-row gap-10 items-start pb-10 bg-primary text-white border-primary border-2 p-4 rounded-xl"
+            className=" flex-row gap-10 items-start pb-10 bg-primary text-white border-primary border-2 p-4 rounded-xl"
           >
             <div>
               <div className="rounded-xl w-10 h-10 bg-white/70 flex items-center justify-center text-primary">

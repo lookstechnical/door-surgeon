@@ -13,7 +13,10 @@ export function Navigation() {
       <div className="container max-w-[1200px] mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold text-primary h-28 block">
+          <Link
+            href="/"
+            className="text-2xl font-bold text-primary h-20 md:h-28 block"
+          >
             <img
               src="/img/the-door-suregeon-logo.png"
               className="h-full w-full"

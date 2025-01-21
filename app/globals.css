@@ -135,7 +135,8 @@ h6 {
 .embla__container {
   display: flex;
 }
+
 /* .embla__slide {
-  flex: 0 0 33.3%;
+  flex: 0 0 100%;
   min-width: 0;
 } */

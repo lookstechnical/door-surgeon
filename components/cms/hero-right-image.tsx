@@ -11,12 +11,12 @@ export const HeroRightImage = ({
   image,
 }: any) => {
   return (
-    <section className="bg-primary/5 p-10">
+    <section className="bg-primary/5 p-4 py-10">
       <section className="flex flex-col md:flex-row container max-w-[1125px] mx-auto py-10 items-center overflow-hidden">
         <div className="md:w-1/2">
           <Animate variant="FadeInRight">
             {highlight && <p className="pb-2">{highlight}</p>}
-            <h1 className="text-7xl ">{heading}</h1>
+            <h1 className="text-5xl md:text-7xl ">{heading}</h1>
             <p className="pt-4">{desc}</p>
             <Link
               href={link}

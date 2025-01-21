@@ -12,9 +12,9 @@ export const SplitList = () => {
           in West Yorkshire:
         </p>
       </div>
-      <div className="pl-10 w-1/2">
-        <ul className="flex flex-row flex-wrap gap-10 overflow-hidden">
-          <li className="md:max-w-1/2 animate-fadeInBottom duration-500">
+      <div className="md:pl-10 md:w-1/2 py-4">
+        <ul className="flex w-full flex-col md:flex-row flex-wrap gap-10 overflow-hidden">
+          <li className="max-w-full md:max-w-1/2 animate-fadeInBottom duration-500">
             <div className="rounded-xl w-10 h-10 bg-primary/50 flex items-center justify-center text-primary">
               <Check />
             </div>
