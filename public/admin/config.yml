@@ -45,12 +45,24 @@ collections:
                   widget: "image",
                   choose_url: true,
                 }
-              - { label: "Color", name: "color", widget: "color" }
               - {
                   label: "Layout",
                   name: "layout",
                   widget: "select",
-                  options: ["hero-left-image", "hero-right-image"],
+                  options:
+                    [
+                      "bg-primary",
+                      "bg-primary/50",
+                      "bg-primary/20",
+                      "bg-primary/10",
+                      "bg-primary/5",
+                    ],
+                }
+              - {
+                  label: "Layout",
+                  name: "layout",
+                  widget: "select",
+                  options: ["hero-left-image", "hero-right-image", "stacked"],
                 }
           - label: "Stats"
             name: "stats"
