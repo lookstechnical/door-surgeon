@@ -46,8 +46,8 @@ collections:
                   choose_url: true,
                 }
               - {
-                  label: "Layout",
-                  name: "layout",
+                  label: "color",
+                  name: Beckgroun Color",
                   widget: "select",
                   options:
                     [
