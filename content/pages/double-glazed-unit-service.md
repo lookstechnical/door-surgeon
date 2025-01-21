@@ -29,4 +29,15 @@ content:
     link: " "
     image: static/images/uploads/install-windows.webp
     linkTitle: " "
+  - heading: Double glazed unit upgrades
+    layout: hero-left-image
+    Beckgroun Color": bg-primary
+    desc: "The Door Surgeon can upgrade your double-glazed units to:          * High
+      security laminated glass         * Double-glazed units with self-cleaning
+      glass         * Double-glazed unit with blinds"
+    highlight: " "
+    type: hero
+    link: " "
+    image: static/images/uploads/double-glazed-unit.webp
+    linkTitle: " "
 ---
