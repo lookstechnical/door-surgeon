@@ -2,7 +2,7 @@ import { PhoneCall } from "lucide-react";
 import Link from "next/link";
 import { Animate } from "../animate/animation";
 
-export const Alert = ({ heading, highlight, description }) => {
+export const Alert = ({ heading, highlight, description }: any) => {
   return (
     <section className="container mx-auto max-w-[1200px] text-white pb-40">
       <Animate

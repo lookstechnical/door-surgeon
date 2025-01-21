@@ -37,8 +37,6 @@ export default function Home({ params }: any) {
 
   const page = getBySlug(slug);
 
-  console.log({ content: page.content });
-
   return (
     <main className="pt-20">
       {page?.content?.map((component: any, index: number) => {
