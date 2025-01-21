@@ -43,9 +43,4 @@ content:
     desc: At Door Surgeon, we provide a wide range of services to both commercial and residential customers.
     highlight: Commerical or Residential
     type: servicelist
-
-  - heading: Contact us?
-    desc: Send us a message
-    highlight: Let’s get in touch
-    type: contactform
 ---

@@ -79,7 +79,7 @@ collections:
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Description", name: "desc", widget: "string" }
           - label: "Services"
-            name: "services"
+            name: "servicelist"
             widget: object
             summary: "{{fields.header}}"
             fields:
