@@ -36,7 +36,6 @@ export const getBySlug = (slug: string[]) => {
   try {
     const pages = getFolderMarkups("/content/pages");
     const joinedSlug = slug.join("/");
-    console.log({ joinedSlug });
     const page = pages?.find((page) =>
       joinedSlug === "" ? page.data.slug === "/" : page.data.slug === joinedSlug
     );

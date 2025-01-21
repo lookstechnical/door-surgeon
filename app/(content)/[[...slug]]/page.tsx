@@ -1,10 +1,14 @@
 import { Alert } from "@/components/cms/alert";
 import { ContactFormSplit } from "@/components/cms/contact-form-split";
+import { Hero } from "@/components/cms/hero";
 import { HeroLeftImage } from "@/components/cms/hero-left-image";
 import { HeroRightImage } from "@/components/cms/hero-right-image";
 import { ServiceList } from "@/components/cms/service-list";
+import { ServiceListMain } from "@/components/cms/service-list-main";
 import { SplitList } from "@/components/cms/split-list";
+import { StatsBlock } from "@/components/cms/stats-bllock";
 import { Testimonials } from "@/components/cms/testimonials";
+import { Heading } from "@/components/cms/title";
 import { getBySlug, getSlugs } from "@/src/utils";
 
 export async function generateMetadata({ params }: any): Promise<any> {
@@ -37,20 +41,28 @@ export default function Home({ params }: any) {
 
   return (
     <main className="pt-20">
-      {page?.content.map((component: any) => {
+      {page?.content.map((component: any, index: number) => {
         switch (component.type) {
           case "hero":
-            return <HeroRightImage {...component} />;
+            return <Hero key={index} component={component} />;
+          case "checklist":
+            return <SplitList key={index} {...component} />;
+          case "servicelist":
+            return <ServiceList key={index} {...component} />;
+          case "testimonials":
+            return <Testimonials key={index} {...component} />;
+          case "alert":
+            return <Alert key={index} {...component} />;
+          case "contactform":
+            return <ContactFormSplit key={index} {...component} />;
+          case "heading":
+            return <Heading key={index} {...component} />;
+          case "stats":
+            return <StatsBlock key={index} {...component} />;
+          case "service-list-main":
+            return <ServiceListMain key={index} {...component} />;
         }
       })}
-
-      <SplitList />
-      <HeroLeftImage />
-      <ServiceList />
-      <Testimonials />
-      <Alert />
-
-      <ContactFormSplit />
     </main>
   );
 }

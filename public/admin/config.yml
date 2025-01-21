@@ -28,11 +28,16 @@ collections:
             widget: object
             summary: "{{fields.header}}"
             fields:
-              - { label: "Highlight", name: "highlight", widget: "string" }
+              - {
+                  label: "Highlight",
+                  name: "highlight",
+                  widget: "string",
+                  required: false,
+                }
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Description", name: "desc", widget: "string" }
-              - { label: "Link", name: "Link", widget: "string" }
-              - { label: "Link Title", name: "Link title", widget: "string" }
+              - { label: "Link", name: "link", widget: "string" }
+              - { label: "Link Title", name: "linkTitle", widget: "string" }
               - {
                   label: "Image",
                   name: "image",
@@ -41,7 +46,7 @@ collections:
                 }
               - { label: "Color", name: "color", widget: "color" }
               - {
-                  label: "Layou",
+                  label: "Layout",
                   name: "layout",
                   widget: "select",
                   options: ["hero-left-image", "hero-right-image"],
@@ -51,7 +56,12 @@ collections:
             widget: object
             summary: "{{fields.header}}"
             fields:
-              - { label: "Highlight", name: "highlight", widget: "string" }
+              - {
+                  label: "Highlight",
+                  name: "highlight",
+                  widget: "string",
+                  required: false,
+                }
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Description", name: "desc", widget: "string" }
               - { label: "Stats", name: "stats", widget: "list" }
@@ -60,7 +70,12 @@ collections:
             widget: object
             summary: "{{fields.header}}"
             fields:
-              - { label: "Highlight", name: "highlight", widget: "string" }
+              - {
+                  label: "Highlight",
+                  name: "highlight",
+                  widget: "string",
+                  required: false,
+                }
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Description", name: "desc", widget: "string" }
           - label: "Services"
@@ -68,30 +83,20 @@ collections:
             widget: object
             summary: "{{fields.header}}"
             fields:
-              - { label: "Highlight", name: "highlight", widget: "string" }
+              - {
+                  label: "Highlight",
+                  name: "highlight",
+                  widget: "string",
+                  required: false,
+                }
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Description", name: "desc", widget: "string" }
               - {
                   label: "Services",
                   name: "services",
                   widget: "relation",
-                  collection: "services",
+                  collection: "pages",
                   multiple: true,
-                  search_fields: ["title"],
-                  value_field: "title",
-                  display_fields: ["title", "highlight", description],
-                }
-          - label: "Service"
-            name: "service"
-            widget: object
-            summary: "{{fields.header}}"
-            fields:
-              - {
-                  label: "Service",
-                  name: "service",
-                  widget: "relation",
-                  collection: "services",
-                  multiple: false,
                   search_fields: ["title"],
                   value_field: "title",
                   display_fields: ["title", "highlight", description],
@@ -101,9 +106,41 @@ collections:
             widget: object
             summary: "{{fields.header}}"
             fields:
-              - { label: "Highlight", name: "highlight", widget: "string" }
+              - {
+                  label: "Highlight",
+                  name: "highlight",
+                  widget: "string",
+                  required: false,
+                }
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Description", name: "desc", widget: "string" }
+          - label: "Check List"
+            name: "checklist"
+            widget: object
+            summary: "{{fields.header}}"
+            fields:
+              - {
+                  label: "Highlight",
+                  name: "highlight",
+                  widget: "string",
+                  required: false,
+                }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "desc", widget: "string" }
+              - {
+                  label: "Items",
+                  name: "item",
+                  widget: "list",
+                  fields:
+                    [
+                      { label: "Heading", name: "heading", widget: "string" },
+                      {
+                        label: "Description",
+                        name: "description",
+                        widget: "string",
+                      },
+                    ],
+                }
 
   - name: "services"
     label: "Services"

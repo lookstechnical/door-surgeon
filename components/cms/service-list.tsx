@@ -1,19 +1,16 @@
 import { KeyIcon } from "lucide-react";
 import { Animate } from "../animate/animation";
 
-export const ServiceList = () => {
+export const ServiceList = ({ highlight, desc, heading }: any) => {
   return (
     <section className="container max-w-[1200px] mx-auto py-20 flex flex-col px-4">
       <div className="flex-col md:w-full flex md:flex-row justify-end items-end gap-10">
         <div>
-          <p className="text-primary text-lg pb-2">Commerical or Residential</p>
-          <h2 className="text-6xl">What Services Do We Provide?</h2>
+          <p className="text-primary text-lg pb-2">{highlight}</p>
+          <h2 className="text-6xl">{heading}</h2>
         </div>
         <div className="md:text-right">
-          <p className="md:pt-6 text-xl">
-            At Door Surgeon, we provide a wide range of services to both
-            commercial and residential customers.
-          </p>
+          <p className="md:pt-6 text-xl">{desc}</p>
         </div>
       </div>
       <div className="py-10">
