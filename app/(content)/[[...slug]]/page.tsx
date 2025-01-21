@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: any): Promise<any> {
 
 export function generateStaticParams() {
   const slugs = getSlugs();
-  return [{ slug: [""] }];
+  return slugs;
 }
 
 export default function Home({ params }: any) {
@@ -41,7 +41,7 @@ export default function Home({ params }: any) {
 
   return (
     <main className="pt-20">
-      {page?.content.map((component: any, index: number) => {
+      {page?.content?.map((component: any, index: number) => {
         switch (component.type) {
           case "hero":
             return <Hero key={index} component={component} />;
