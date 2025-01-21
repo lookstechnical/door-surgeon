@@ -37,8 +37,18 @@ collections:
                 }
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Description", name: "desc", widget: "string" }
-              - { label: "Link", name: "link", widget: "string" }
-              - { label: "Link Title", name: "linkTitle", widget: "string" }
+              - {
+                  label: "Link",
+                  name: "link",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Link Title",
+                  name: "linkTitle",
+                  widget: "string",
+                  required: false,
+                }
               - {
                   label: "Image",
                   name: "image",
@@ -46,9 +56,10 @@ collections:
                   choose_url: true,
                 }
               - {
-                  label: "color",
-                  name: Beckgroun Color",
+                  label: "Background Color",
+                  name: color",
                   widget: "select",
+                  required: false,
                   options:
                     [
                       "bg-primary",
