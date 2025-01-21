@@ -51,4 +51,8 @@ content:
       - services/double-glazed-unit-service
       - services/window-repair-services
       - services/door-and-window-installations
+  - type: alert
+    highlight: emergancy
+    heading: Locksmith service
+    desc: locked out? get in touch
 ---
