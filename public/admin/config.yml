@@ -1,0 +1,118 @@
+backend:
+  name: test-repo
+  branch: main #
+  # branch: main # Replace with your default branch name if different
+
+media_folder: "static/images/uploads" # Folder where uploaded media will be stored
+public_folder: "/images/uploads" # Public path to the uploaded media
+
+site_url: "http://localhost:3000" # Replace with your site’s URL
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "/content/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - label: "Content"
+        name: "content"
+        widget: "list"
+        types:
+          - label: "Hero"
+            name: "hero"
+            widget: object
+            summary: "{{fields.header}}"
+            fields:
+              - { label: "Highlight", name: "highlight", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "desc", widget: "string" }
+              - { label: "Link", name: "Link", widget: "string" }
+              - { label: "Link Title", name: "Link title", widget: "string" }
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: "image",
+                  choose_url: true,
+                }
+              - { label: "Color", name: "color", widget: "color" }
+              - {
+                  label: "Type",
+                  name: "type",
+                  widget: "select",
+                  options: ["hero-left-image", "hero-right-image"],
+                }
+          - label: "Stats"
+            name: "stats"
+            widget: object
+            summary: "{{fields.header}}"
+            fields:
+              - { label: "Highlight", name: "highlight", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "desc", widget: "string" }
+              - { label: "Stats", name: "stats", widget: "list" }
+          - label: "Heading"
+            name: "heading"
+            widget: object
+            summary: "{{fields.header}}"
+            fields:
+              - { label: "Highlight", name: "highlight", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "desc", widget: "string" }
+          - label: "Services"
+            name: "services"
+            widget: object
+            summary: "{{fields.header}}"
+            fields:
+              - { label: "Highlight", name: "highlight", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "desc", widget: "string" }
+              - {
+                  label: "Services",
+                  name: "services",
+                  widget: "relation",
+                  collection: "services",
+                  multiple: true,
+                  search_fields: ["title"],
+                  value_field: "title",
+                  display_fields: ["title", "highlight", description],
+                }
+          - label: "Service"
+            name: "service"
+            widget: object
+            summary: "{{fields.header}}"
+            fields:
+              - {
+                  label: "Service",
+                  name: "service",
+                  widget: "relation",
+                  collection: "services",
+                  multiple: false,
+                  search_fields: ["title"],
+                  value_field: "title",
+                  display_fields: ["title", "highlight", description],
+                }
+          - label: "Alert"
+            name: "alert"
+            widget: object
+            summary: "{{fields.header}}"
+            fields:
+              - { label: "Highlight", name: "highlight", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "desc", widget: "string" }
+
+  - name: "services"
+    label: "Services"
+    folder: "/content/services"
+    create: true
+    slug: "services/{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "highlight", name: "highlight", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
