@@ -38,8 +38,8 @@ collections:
                 }
               - { label: "Color", name: "color", widget: "color" }
               - {
-                  label: "Type",
-                  name: "type",
+                  label: "Layou",
+                  name: "layout",
                   widget: "select",
                   options: ["hero-left-image", "hero-right-image"],
                 }
