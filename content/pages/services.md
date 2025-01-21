@@ -1,14 +1,15 @@
 ---
 title: Services
 slug: services
+seodescription: services
 description: Services
 content:
   - type: servicelist
     services:
-      - Door Repair Services
-      - Double glazed unit service
-      - Window Repair Services
-      - Door and window installations
+      - services/double-glazed-unit-service
+      - services/window-repair-services
+      - services/door-repair-services
+      - services/door-and-window-installations
     heading: Services
     desc: What services do we offer
 ---
