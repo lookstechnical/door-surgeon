@@ -1,5 +1,7 @@
 backend:
   name: git-gateway
+  repo: lookstechnical/door-surgeon
+  branch: main
   # branch: main # Replace with your default branch name if different
 
 media_folder: "static/images/uploads" # Folder where uploaded media will be stored
