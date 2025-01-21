@@ -18,6 +18,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Seo Description", name: "seodescription", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - label: "Content"
         name: "content"
@@ -98,8 +99,8 @@ collections:
                   collection: "pages",
                   multiple: true,
                   search_fields: ["title"],
-                  value_field: "title",
-                  display_fields: ["title", "highlight", description],
+                  value_field: "slug",
+                  display_fields: ["title", "slug", description],
                 }
           - label: "Alert"
             name: "alert"
