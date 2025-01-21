@@ -6,7 +6,8 @@ description: About
 content:
   - heading: The Door Surgeon
     color: "#f0bcbc"
-    layout: hero-left-image
+    layout: stacked
+    Beckgroun Color": bg-primary/10
     desc: The Door Surgeon
     highlight: Who are we?
     type: hero
