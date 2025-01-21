@@ -18,4 +18,15 @@ content:
     image: static/images/uploads/double-glazed-unit.webp
     Beckgroun Color": bg-primary/50
     layout: hero-left-image
+  - heading: Broken glass replacement
+    layout: hero-right-image
+    Beckgroun Color": bg-primary/50
+    desc: Is your glass cracked or broken? The Door Surgeon can replace
+      it,         with over 20 years of experience in replacing double-glazed
+      units safely and securely. We work with aluminium, timber and UPVC frames.
+    highlight: " "
+    type: hero
+    link: " "
+    image: static/images/uploads/install-windows.webp
+    linkTitle: " "
 ---
