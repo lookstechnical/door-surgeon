@@ -20,6 +20,32 @@ export const getFolderMarkups = (
   }
 };
 
+export const getSlugs = (): any => {
+  try {
+    const pages = getFolderMarkups("/content/pages");
+
+    return pages?.map((page) => ({
+      slug: page.data.slug === "/" ? [""] : page.data.slug.split("/"),
+    }));
+  } catch (error) {
+    return null;
+  }
+};
+
+export const getBySlug = (slug: string[]) => {
+  try {
+    const pages = getFolderMarkups("/content/pages");
+    const joinedSlug = slug.join("/");
+    console.log({ joinedSlug });
+    const page = pages?.find((page) =>
+      joinedSlug === "" ? page.data.slug === "/" : page.data.slug === joinedSlug
+    );
+    if (page) return page.data;
+  } catch (error) {
+    return null;
+  }
+};
+
 export const getMarkup = (
   directory: string,
   filename: string

@@ -1,15 +1,17 @@
 ---
 title: Home
 description: Home
+slug: /
 content:
   - heading: Door & Window Specialists
-    color: "#e9c0c0"
+    color: ""
     layout: hero-right-image
-    desc: Expertly crafted doors and windows with professional installation across
+    desc:
+      Expertly crafted doors and windows with professional installation across
       West Yorkshire.
-    Link title: 07912 294 111
-    highlight: " "
-    Link: tel:07912 294 111
+    linkTitle: 07912 294 111
+    highlight: ""
+    link: tel:07912 294 111
     type: hero
     image: /images/uploads/double-glazed-unit.webp
 ---
