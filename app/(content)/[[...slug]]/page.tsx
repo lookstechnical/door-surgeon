@@ -1,8 +1,6 @@
 import { Alert } from "@/components/cms/alert";
 import { ContactFormSplit } from "@/components/cms/contact-form-split";
 import { Hero } from "@/components/cms/hero";
-import { HeroLeftImage } from "@/components/cms/hero-left-image";
-import { HeroRightImage } from "@/components/cms/hero-right-image";
 import { ServiceList } from "@/components/cms/service-list";
 import { ServiceListMain } from "@/components/cms/service-list-main";
 import { SplitList } from "@/components/cms/split-list";
@@ -38,6 +36,8 @@ export default function Home({ params }: any) {
   const { slug = [], locale } = params;
 
   const page = getBySlug(slug);
+
+  console.log({ content: page.content });
 
   return (
     <main className="pt-20">
