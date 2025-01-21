@@ -56,6 +56,7 @@ export const Animate = ({
     }
   }, [controls, inView]);
 
+  // @ts-ignore -- works
   const MotionComponent = motion[as];
 
   return (

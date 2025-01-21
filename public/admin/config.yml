@@ -1,5 +1,5 @@
 backend:
-  name: test-repo
+  name: git-gateway
   branch: main #
   # branch: main # Replace with your default branch name if different
 

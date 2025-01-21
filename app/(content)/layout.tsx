@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
-import AnimateOnScroll from "@/components/animate/animateOnScroll";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -78,35 +78,10 @@ const config: Config = {
             height: "0",
           },
         },
-        fadeInLeft: {
-          "0%": { opacity: 0, transform: "translateX(-100%)" },
-          "100%": { opacity: 1, transform: "translateX(0)" },
-        },
-        fadeInBottom: {
-          "0%": { opacity: 0, transform: "translateY(100%)" },
-          "100%": { opacity: 1, transform: "translateY(0)" },
-        },
-        fadeOutBottom: {
-          "0%": { opacity: 1, transform: "translateY(0)" },
-          "100%": { opacity: 0, transform: "translateY(100)" },
-        },
-        fadeInRight: {
-          "0%": { opacity: 0, transform: "translateX(100%)" },
-          "100%": { opacity: 1, transform: "translateX(0)" },
-        },
-        fadeInTop: {
-          "0%": { opacity: 0, transform: "translateY(-100%)" },
-          "100%": { opacity: 1, transform: "translateY(0)" },
-        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out forwards",
         "accordion-up": "accordion-up 0.2s ease-out forwards",
-        fadeInLeft: "fadeInLeft 1s ease-out forwards",
-        fadeInBottom: "fadeInBottom 1s ease-out forwards",
-        fadeInRight: "fadeInRight 1s ease-out forwards",
-        fadeInTop: "fadeInTop 1s ease-out forwards",
-        fadeOutBottom: "fadeOutBottom 1s ease-out forwards",
       },
     },
   },
