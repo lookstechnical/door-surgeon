@@ -54,7 +54,7 @@ content:
           installing, and maintaining doors and windows across West Yorkshire.
           We’ve built our reputation on reliability, quality, and outstanding
           customer service.
-  - heading: Local Window & Door Specialists
+  - heading: Window & Door Specialists
     color: "#fedede"
     layout: hero-left-image
     desc: The Door Surgeon is a family-owned business dedicated to repairing,
