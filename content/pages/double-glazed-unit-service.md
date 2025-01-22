@@ -1,8 +1,12 @@
 ---
 title: Double glazed unit service
 slug: services/double-glazed-unit-service
-seodescription: Double glazed unit service
-description: Double glazed unit service
+seodescription: "Whether you're dealing with misted glass, cracked panes, or
+  outdated units, we’ll restore their clarity, energy efficiency, and
+  performance. "
+description: "Whether you're dealing with misted glass, cracked panes, or
+  outdated units, we’ll restore their clarity, energy efficiency, and
+  performance. "
 content:
   - type: hero
     heading: Broken-down unit replacement
@@ -27,8 +31,7 @@ content:
   - heading: Double glazed unit upgrades
     layout: hero-left-image
     color: bg-primary/20
-    desc:
-      "The Door Surgeon can upgrade your double-glazed units to:          * High
+    desc: "The Door Surgeon can upgrade your double-glazed units to:          * High
       security laminated glass         * Double-glazed units with self-cleaning
       glass         * Double-glazed unit with blinds"
     type: hero
