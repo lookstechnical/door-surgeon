@@ -6,7 +6,7 @@ seodescription: We perform door repairs and window repairs to a high standard.We
   windows.
 description: Home
 content:
-  - heading: Experts in Windows & Door Repairs and Installations
+  - heading: Experts in Windows & Door Repairs
     color: "#fedede"
     layout: hero-right-image
     desc: Your Local Specialists for Secure, Stylish, and Reliable Solutions Whether
