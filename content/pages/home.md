@@ -54,14 +54,14 @@ content:
           installing, and maintaining doors and windows across West Yorkshire.
           We’ve built our reputation on reliability, quality, and outstanding
           customer service.
-  - heading: Your Trusted Local Window & Door Specialists
+  - heading: Local Window & Door Specialists
     color: "#fedede"
     layout: hero-left-image
     desc: The Door Surgeon is a family-owned business dedicated to repairing,
       installing, and maintaining doors and windows across West Yorkshire. We’ve
       built our reputation on reliability, quality, and outstanding customer
       service.
-    highlight: About Us
+    highlight: Your Trusted
     type: hero
     link: tel:07912 294 111
     image: static/images/uploads/install-windows.webp
