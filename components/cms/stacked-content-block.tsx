@@ -8,7 +8,7 @@ export const StackedContentBlock = ({
   image,
 }: any) => {
   return (
-    <section className="bg-primary/5 py-0 px-4">
+    <section className="bg-primary/5 py-0 md:py-10 px-4">
       <section className="flex flex-col items-center container max-w-[1200px] mx-auto py-10 items-center overflow-hidden">
         <Animate
           variant="FadeInBottom"

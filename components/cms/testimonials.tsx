@@ -7,7 +7,7 @@ export const Testimonials = () => {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
 
   return (
-    <section className="flex md:flex-row container max-w-[1200px] mx-auto py-10 pb-40 px-4">
+    <section className="flex md:flex-row container max-w-[1200px] mx-auto md:py-10 pb-40 px-4">
       <div className="w-full flex flex-col justify-center items-center">
         <p className="text-primary">Tesitmonials</p>
         <h3 className="text-5xl pb-10">Our Customers Say</h3>
