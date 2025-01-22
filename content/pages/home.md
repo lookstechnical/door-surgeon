@@ -6,21 +6,23 @@ seodescription: We perform door repairs and window repairs to a high standard.We
   windows.
 description: Home
 content:
-  - heading: Door & Window Specialists
+  - heading: Experts in Windows & Door Repairs and Installations
     color: "#fedede"
     layout: hero-right-image
-    desc: Expertly crafted doors and windows with professional installation across
-      West Yorkshire.
-    highlight: " "
+    desc: Your Local Specialists for Secure, Stylish, and Reliable Solutions Whether
+      you’re upgrading your property or need urgent repairs, trust The Door
+      Surgeon to deliver exceptional service. With years of expertise, we bring
+      craftsmanship and care to every job.
+    highlight: West Yorkshire
     type: hero
     link: tel:07912 294 111
     image: static/images/uploads/install-windows.webp
     linkTitle: 07912 294 111
-  - heading: Why Choose us for your Windows and Doors?
+  - heading: Why Choose The Door Surgeon?
     desc: At Door Surgeon, we pride ourselves on delivering exceptional service and
       quality. Here’s why we’re the trusted choice for doors and windows in West
       Yorkshire
-    highlight: Trusted choice
+    highlight: Reliable. Affordable. Professional.
     type: checklist
     items:
       - heading: Exceptional Customer Service
@@ -34,6 +36,22 @@ content:
           efficiency, and long-lasting beauty.
       - heading: Emergency Services
         description: 24/7 for issues quickly and efficiently.
+    item:
+      - heading: Experienced Professionals
+        description: With decades of combined expertise, we understand how to diagnose
+          and resolve your window and door issues efficiently.
+      - heading: Fast and Friendly Service
+        description: We pride ourselves on offering swift, hassle-free service with a
+          personal touch.
+      - heading: Quality You Can Trust
+        description: We only use top-quality materials to ensure your windows and doors
+          are durable, energy-efficient, and secure.
+      - heading: Affordable Pricing
+        description: No hidden fees – just clear, competitive pricing tailored to your
+          needs.
+      - heading: Customer Satisfaction Guarantee
+        description: Your happiness is our priority. We’ll go above and beyond to exceed
+          your expectations.
   - heading: Door and Window Repairs
     color: "#fedede"
     layout: hero-left-image
