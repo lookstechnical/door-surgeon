@@ -4,7 +4,7 @@ import { Hero } from "@/components/cms/hero";
 import { ServiceList } from "@/components/cms/service-list";
 import { ServiceListMain } from "@/components/cms/service-list-main";
 import { SplitList } from "@/components/cms/split-list";
-import { StatsBlock } from "@/components/cms/stats-bllock";
+import { StatsBlock } from "@/components/cms/stats-block";
 import { Testimonials } from "@/components/cms/testimonials";
 import { Heading } from "@/components/cms/title";
 import { getBySlug, getSlugs } from "@/src/utils";
