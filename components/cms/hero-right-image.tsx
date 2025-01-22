@@ -1,6 +1,7 @@
 import { PhoneCall } from "lucide-react";
 import Link from "next/link";
 import { Animate } from "../animate/animation";
+import React from "react";
 
 const colors = [
   "bg-primary",
@@ -10,6 +11,15 @@ const colors = [
   "bg-primary/5",
 ];
 
+interface HeadingProps {
+  level: 1 | 2 | 3 | 4 | 5 | 6; // Restricting to valid heading levels
+  children: React.ReactNode; // Content of the heading
+  className: string;
+}
+const Heading: React.FC<HeadingProps> = ({ level, children, className }) => {
+  return React.createElement(`h${level}`, { className }, children);
+};
+
 export const HeroRightImage = ({
   highlight,
   heading,
@@ -18,6 +28,7 @@ export const HeroRightImage = ({
   linkTitle,
   image,
   color,
+  index,
 }: any) => {
   return (
     <section className={`p-4 py-10 ${color}`}>
@@ -25,7 +36,12 @@ export const HeroRightImage = ({
         <div className="md:w-1/2">
           <Animate variant="FadeInRight">
             {highlight && <p className="pb-2">{highlight}</p>}
-            <h1 className="text-5xl md:text-7xl ">{heading}</h1>
+            <Heading
+              level={index === 0 ? 1 : 2}
+              className="text-5xl md:text-7xl "
+            >
+              {heading}
+            </Heading>
             <p className="pt-4">{desc}</p>
             {link && linkTitle && (
               <Link

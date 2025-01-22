@@ -42,23 +42,25 @@ export default function Home({ params }: any) {
       {page?.content?.map((component: any, index: number) => {
         switch (component.type) {
           case "hero":
-            return <Hero key={index} component={component} />;
+            return <Hero key={index} index={index} component={component} />;
           case "checklist":
-            return <SplitList key={index} {...component} />;
+            return <SplitList key={index} index={index} {...component} />;
           case "servicelist":
-            return <ServiceList key={index} {...component} />;
+            return <ServiceList key={index} index={index} {...component} />;
           case "testimonials":
-            return <Testimonials key={index} {...component} />;
+            return <Testimonials key={index} index={index} {...component} />;
           case "alert":
-            return <Alert key={index} {...component} />;
+            return <Alert key={index} index={index} {...component} />;
           case "contactform":
-            return <ContactFormSplit key={index} {...component} />;
+            return (
+              <ContactFormSplit key={index} index={index} {...component} />
+            );
           case "heading":
-            return <Heading key={index} {...component} />;
+            return <Heading key={index} index={index} {...component} />;
           case "stats":
-            return <StatsBlock key={index} {...component} />;
+            return <StatsBlock key={index} index={index} {...component} />;
           case "service-list-main":
-            return <ServiceListMain key={index} {...component} />;
+            return <ServiceListMain key={index} index={index} {...component} />;
         }
       })}
     </main>

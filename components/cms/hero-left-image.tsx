@@ -3,6 +3,16 @@
 import { PhoneCall } from "lucide-react";
 import Link from "next/link";
 import { Animate } from "../animate/animation";
+import React from "react";
+
+interface HeadingProps {
+  level: 1 | 2 | 3 | 4 | 5 | 6; // Restricting to valid heading levels
+  children: React.ReactNode; // Content of the heading
+  className: string;
+}
+const Heading: React.FC<HeadingProps> = ({ level, children, className }) => {
+  return React.createElement(`h${level}`, { className }, children);
+};
 
 export const HeroLeftImage = ({
   highlight,
@@ -11,11 +21,12 @@ export const HeroLeftImage = ({
   link,
   linkTitle,
   color,
+  index,
 }: any) => {
   return (
-    <section className={`${color} p-10`}>
+    <section className={`${color} py-10 px-4`}>
       <section className="flex flex-col md:flex-row container max-w-[1125px] mx-auto py-10 items-center overflow-hidden">
-        <div className="md:pr-20 md:w-1/2">
+        <div className="md:pr-20 md:w-1/2 pb-4 md:pb-0">
           <Animate variant="FadeInBottom">
             <div className="rounded-xl overflow-hidden">
               <img src="/img/surgeon.webp" />
@@ -23,8 +34,13 @@ export const HeroLeftImage = ({
           </Animate>
         </div>
         <Animate className="md:w-1/2" variant="FadeInLeft">
-          {highlight && <p>{highlight}</p>}
-          <h1 className="text-7xl ">{heading}</h1>
+          {highlight && <p className="pb-2 text-primary">{highlight}</p>}
+          <Heading
+            level={index === 0 ? 1 : 2}
+            className="text-5xl md:text-7xl "
+          >
+            {heading}
+          </Heading>
           <p className="pt-4">{desc}</p>
           {link && linkTitle && (
             <Link

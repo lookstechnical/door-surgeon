@@ -4,7 +4,7 @@ import { Animate } from "../animate/animation";
 
 export const SplitList = ({ heading, desc, highlight, items }: any) => {
   return (
-    <section className="container max-w-[1200px] mx-auto py-20 flex flex-col md:flex-row overflow-hidden px-4">
+    <section className="container max-w-[1200px] mx-auto py-5 flex flex-col md:flex-row overflow-hidden px-4">
       <div className="md:w-1/2 pr-20 animate-fadeInLeft duration-500">
         {highlight && <p className="text-primary pb-2">{highlight}</p>}
         <h2 className="text-5xl">{heading}</h2>

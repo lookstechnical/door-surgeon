@@ -4,7 +4,7 @@ import { Animate } from "../animate/animation";
 
 export const Alert = ({ heading, highlight, description }: any) => {
   return (
-    <section className="container mx-auto max-w-[1200px] text-white pb-40">
+    <section className="container mx-auto max-w-[1200px] text-white pb-20 px-4">
       <Animate
         variant="Scale"
         className="bg-primary p-10 py-40 rounded-xl text-white flex flex-col justify-center items-center"

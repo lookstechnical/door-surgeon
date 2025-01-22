@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Animate } from "../animate/animation";
 
 export const StackedContentBlock = ({
@@ -7,7 +8,7 @@ export const StackedContentBlock = ({
   image,
 }: any) => {
   return (
-    <section className="bg-primary/5 p-10">
+    <section className="bg-primary/5 py-10 px-4">
       <section className="flex flex-col items-center container max-w-[1200px] mx-auto py-10 items-center overflow-hidden">
         <Animate
           variant="FadeInBottom"
@@ -18,12 +19,16 @@ export const StackedContentBlock = ({
           <p className="pt-4">{desc}</p>
         </Animate>
         <div className="w-full pt-10 ">
-          <Animate
-            variant="FadeInBottom"
-            delay={0.25}
-            className="rounded-xl overflow-hidden aspect-[3/1] overflow-hidden"
-          >
-            <img src={image} className="w-full h-full" />
+          <Animate variant="FadeInBottom" delay={0.25} className="">
+            <div className="relative aspect-1/1 md:aspect-[3/1] rounded-xl overflow-hidden">
+              <Image
+                alt="image"
+                width={100}
+                height={100}
+                src={image}
+                className="w-full h-full object-none"
+              />
+            </div>
           </Animate>
         </div>
       </section>
