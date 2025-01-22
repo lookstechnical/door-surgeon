@@ -63,10 +63,11 @@ content:
     link: tel:07912 294 111
     image: static/images/uploads/install-windows.webp
     linkTitle: 07912 294 111
-  - heading: What Services Do We Provide?
-    desc: At Door Surgeon, we provide a wide range of services to both commercial
-      and residential customers.
-    highlight: Commerical or Residential
+  - heading: Comprehensive Window & Door Solutions
+    desc: "From fixing broken locks, hinges, and glass to installing
+      energy-efficient windows and secure, stylish doors, we deliver expert
+      craftsmanship tailored to your needs. "
+    highlight: Our Services
     type: servicelist
     services:
       - services/door-repair-services
