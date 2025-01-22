@@ -12,7 +12,7 @@ export const SplitList = ({ heading, desc, highlight, items }: any) => {
       </div>
       <div className="md:pl-10 md:w-1/2 py-4">
         <ul className="flex w-full flex-col md:flex-row flex-wrap gap-10 overflow-hidden">
-          {items.map((item: any) => (
+          {items?.map((item: any) => (
             <Animate
               as="li"
               variant="FadeInBottom"

@@ -9,7 +9,8 @@ content:
   - type: hero
     heading: Keep Your Property Safe and Secure
     highlight: "Reliable Door Repairs "
-    desc: Whether it’s a sticking hinge, a broken lock, or damage to the frame, The
+    desc:
+      Whether it’s a sticking hinge, a broken lock, or damage to the frame, The
       Door Surgeon offers professional door repair services to restore
       functionality and security.
     image: static/images/uploads/install-windows.webp
@@ -17,7 +18,7 @@ content:
   - type: checklist
     heading: Our Door Repair Services
     desc: Comprehensive Repairs for All Door Types
-    item:
+    items:
       - heading: Lock Repairs and Replacements
         description: " Ensure your door’s security with expert lock services."
       - heading: Hinge and Alignment Fixes
