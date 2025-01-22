@@ -12,6 +12,6 @@ content:
     highlight: Who are we?
     type: hero
     link: The Door Surgeon
-    image: static/images/uploads/surgeon.webp
+    image: static/images/uploads/about-banner.png
     linkTitle: The Door Surgeon
 ---
