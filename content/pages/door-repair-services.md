@@ -14,4 +14,18 @@ content:
       functionality and security.
     image: static/images/uploads/install-windows.webp
     layout: stacked
+  - type: checklist
+    heading: Our Door Repair Services
+    desc: Comprehensive Repairs for All Door Types
+    item:
+      - heading: Lock Repairs and Replacements
+        description: " Ensure your door’s security with expert lock services."
+      - heading: Hinge and Alignment Fixes
+        description: Solve sticking or sagging doors with precise adjustments.
+      - heading: Frame Repairs
+        description: Repair or strengthen door frames for long-lasting results.
+      - heading: Handle Repairs
+        description: " Restore the look and functionality of damaged door handles."
+      - heading: Glass Panel Repairs
+        description: Fix or replace broken glass panels in your doors.
 ---
