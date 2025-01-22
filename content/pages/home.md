@@ -79,6 +79,6 @@ content:
       - services/door-and-window-installations
   - type: alert
     highlight: Emergancy
-    heading: Locksmith service
+    heading: Locksmith Service
     desc: locked out? get in touch
 ---
