@@ -35,6 +35,6 @@ content:
     linkTitle: 07912 294 111
     link: tel:07912 294 111
     image: static/images/uploads/install-windows.webp
-    color": bg-primary/20
+    color: bg-primary/20
     layout: hero-right-image
 ---
