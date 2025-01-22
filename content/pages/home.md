@@ -50,8 +50,10 @@ content:
         description: No hidden fees – just clear, competitive pricing tailored to your
           needs.
       - heading: Customer Satisfaction Guarantee
-        description: Your happiness is our priority. We’ll go above and beyond to exceed
-          your expectations.
+        description: The Door Surgeon is a family-owned business dedicated to repairing,
+          installing, and maintaining doors and windows across West Yorkshire.
+          We’ve built our reputation on reliability, quality, and outstanding
+          customer service.
   - heading: Door and Window Repairs
     color: "#fedede"
     layout: hero-left-image
