@@ -32,10 +32,10 @@ export const HeroRightImage = ({
 }: any) => {
   return (
     <section className={`p-4 py-10 ${color}`}>
-      <section className="flex flex-col md:flex-row container max-w-[1125px] mx-auto py-10 items-center overflow-hidden">
+      <section className="flex flex-col md:flex-row container max-w-[1200px] mx-auto py-0 items-center overflow-hidden">
         <div className="md:w-1/2">
           <Animate variant="FadeInRight">
-            {highlight && <p className="pb-2">{highlight}</p>}
+            {highlight && <p className="text-primary pb-2">{highlight}</p>}
             <Heading
               level={index === 0 ? 1 : 2}
               className="text-5xl md:text-7xl "

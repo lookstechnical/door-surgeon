@@ -11,16 +11,16 @@ export const ServiceList = ({
   ...props
 }: any) => {
   return (
-    <section className="container max-w-[1200px] mx-auto py-10 flex flex-col px-4">
+    <section className="container max-w-[1200px] mx-auto py-0 flex flex-col px-4">
       <div className="flex-col flex md:flex-row md:justify-between justify-start items-start md:items-end md:gap-10 gap-4">
         <div>
           {highlight && (
             <p className="text-primary text-lg pb-2">{highlight}</p>
           )}
-          <h2 className="text-6xl">{heading}</h2>
+          <h2 className="text-4xl md:text-6xl">{heading}</h2>
         </div>
         <div className="md:text-right">
-          <p className="md:pt-6 text-xl">{desc}</p>
+          <p className="md:pt-6 md:text-xl">{desc}</p>
         </div>
       </div>
       <div className="md:py-10 py-4">

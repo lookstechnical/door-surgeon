@@ -24,8 +24,8 @@ export const HeroLeftImage = ({
   index,
 }: any) => {
   return (
-    <section className={`${color} py-10 px-4`}>
-      <section className="flex flex-col md:flex-row container max-w-[1125px] mx-auto py-10 items-center overflow-hidden">
+    <section className={`${color} py-0 px-4`}>
+      <section className="flex flex-col md:flex-row container max-w-[1200px] mx-auto py-0 items-center overflow-hidden">
         <div className="md:pr-20 md:w-1/2 pb-4 md:pb-0">
           <Animate variant="FadeInBottom">
             <div className="rounded-xl overflow-hidden">
