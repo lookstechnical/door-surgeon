@@ -1,9 +1,8 @@
 ---
 title: Door Repair Services
 slug: services/door-repair-services
-seodescription: Cracked glass? Sticking frames? Draughty seals? We provide
-  repairs for all types of windows to restore their performance and aesthetic
-  appeal.
-description: Cracked glass? Sticking frames? Draughty seals? We provide repairs
-  for all types of windows to restore their performance and aesthetic appeal.
+seodescription: From broken locks to misaligned hinges, we repair internal,
+  external, uPVC, wooden, and aluminium doors with precision and expertise.
+description: From broken locks to misaligned hinges, we repair internal,
+  external, uPVC, wooden, and aluminium doors with precision and expertise.
 ---
