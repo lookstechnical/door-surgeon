@@ -28,4 +28,12 @@ content:
         description: " Restore the look and functionality of damaged door handles."
       - heading: Glass Panel Repairs
         description: Fix or replace broken glass panels in your doors.
+  - type: hero
+    heading: Need a Door Repair Expert?
+    desc: Contact Us for Fast, Reliable Service!
+    linkTitle: 07912 294 111
+    link: tel:07912 294 111
+    image: static/images/uploads/install-windows.webp
+    color": bg-primary/20
+    layout: hero-right-image
 ---
