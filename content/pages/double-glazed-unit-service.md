@@ -21,7 +21,7 @@ content:
     color": bg-primary/5
     image: static/images/uploads/dall-e-2025-01-25-13.21.38-a-surreal-and-professional-image-in-the-style-of-a-surgeon-operating-on-a-door-but-instead-featuring-a-craftsman-in-a-surgical-operating-room-setting.webp
   - type: checklist
-    heading: Our Double Glazed Unit Servicing?
+    heading: Our Double Glazed Unit Service
     highlight: ""
     item:
       - heading: Misted or Foggy Glass Replacement
