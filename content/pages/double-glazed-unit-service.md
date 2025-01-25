@@ -40,4 +40,12 @@ content:
         description: We can repair or replace double-glazed units of any size or design,
           tailored to your specific needs.
     desc: Comprehensive Solutions for All Double-Glazing Issues
+  - type: hero
+    heading: Contact The Door Surgeon Today
+    highlight: "Get Your Double Glazed Units Back in Top Shape! "
+    link: tel:07912 294 111
+    linkTitle: 07912 294 111
+    desc: " "
+    layout: hero-left-image
+    image: static/images/uploads/dall-e-2025-01-25-13.16.38-a-professional-workshop-or-storefront-specialising-in-double-glazed-unit-servicing-featuring-craftsmen-working-on-repairing-and-replacing-misted-or-c.webp
 ---
