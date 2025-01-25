@@ -11,7 +11,8 @@ content:
   - type: hero
     heading: Double Glazing Repairs and Replacements
     highlight: Professional
-    desc: Double-glazed windows are essential for keeping your property warm, quiet,
+    desc:
+      Double-glazed windows are essential for keeping your property warm, quiet,
       and secure. If your units are misted, cracked, or no longer performing
       efficiently, our expert servicing can restore their functionality and
       aesthetics. At The Door Surgeon, we specialise in repairing and replacing
@@ -23,21 +24,25 @@ content:
   - type: checklist
     heading: Our Double Glazed Unit Service
     highlight: ""
-    item:
+    items:
       - heading: Misted or Foggy Glass Replacement
         description: Remove unsightly condensation trapped between panes with a
           like-for-like replacement.
       - heading: Seal Repairs and Resealing
-        description: " Fix draughts and leaks by repairing or replacing worn seals to
+        description:
+          " Fix draughts and leaks by repairing or replacing worn seals to
           ensure proper insulation."
       - heading: Cracked or Broken Glass Repairs
-        description: Replace damaged panes to restore the safety, appearance, and
+        description:
+          Replace damaged panes to restore the safety, appearance, and
           efficiency of your windows.
       - heading: Upgrades to Energy-Efficient Units
-        description: Upgrade older units with modern, energy-efficient double glazing
+        description:
+          Upgrade older units with modern, energy-efficient double glazing
           for enhanced performance.
       - heading: Custom Sizes and Shapes
-        description: We can repair or replace double-glazed units of any size or design,
+        description:
+          We can repair or replace double-glazed units of any size or design,
           tailored to your specific needs.
     desc: Comprehensive Solutions for All Double-Glazing Issues
   - type: hero
@@ -46,6 +51,7 @@ content:
     link: tel:07912 294 111
     linkTitle: 07912 294 111
     desc: " "
+    color: "bg-primary/10"
     layout: hero-left-image
     image: static/images/uploads/dall-e-2025-01-25-13.16.38-a-professional-workshop-or-storefront-specialising-in-double-glazed-unit-servicing-featuring-craftsmen-working-on-repairing-and-replacing-misted-or-c.webp
 ---

@@ -166,7 +166,7 @@ collections:
               - { label: "Description", name: "desc", widget: "string" }
               - {
                   label: "Items",
-                  name: "item",
+                  name: "items",
                   widget: "list",
                   fields:
                     [
