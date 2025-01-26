@@ -17,4 +17,18 @@ content:
     image: static/images/uploads/dall-e-2025-01-26-16.29.03-a-creative-and-surreal-depiction-of-a-professional-worker-fixing-broken-windows-in-a-bright-and-modern-home-interior.-the-setting-is-a-cosy-living-spa.webp
     color": bg-primary/5
     layout: stacked
+  - type: checklist
+    heading: Our Window Repair Services
+    desc: No Job Too Big or Small
+    items:
+      - heading: Glass Replacement
+        description: We replace broken or cracked panes, ensuring a perfect fit.
+      - heading: Seal Repairs
+        description: Eliminate draughts and leaks with precise resealing.
+      - heading: Frame Repairs
+        description: Repair damage to timber, uPVC, or metal frames.
+      - heading: Hinge and Lock Fixes
+        description: Restore the functionality and security of your windows.
+      - heading: Foggy Double-Glazing Repairs
+        description: Remove condensation and restore clarity to your double-glazed units.
 ---
