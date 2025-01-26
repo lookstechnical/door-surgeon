@@ -11,7 +11,7 @@ content:
     heading: Windows and Doors Professionally Installed
     desc: Whether you’re renovating or building, The Door Surgeon provides
       high-quality window installations tailored to your needs.
-    image: static/images/uploads/about-banner.png
+    image: static/images/uploads/dall-e-2025-01-26-16.28.17-a-creative-and-surreal-depiction-of-window-and-door-installations-in-a-residential-setting-featuring-a-professional-worker-installing-a-window-and-do.webp
     color": bg-primary/5
     layout: stacked
   - type: checklist
