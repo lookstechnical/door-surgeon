@@ -14,7 +14,7 @@ content:
       home’s comfort or security. At The Door Surgeon, we specialise in
       repairing all types of windows to restore their performance and aesthetic
       appeal.
-    image: static/images/uploads/broken-window.png
+    image: static/images/uploads/dall-e-2025-01-26-16.29.03-a-creative-and-surreal-depiction-of-a-professional-worker-fixing-broken-windows-in-a-bright-and-modern-home-interior.-the-setting-is-a-cosy-living-spa.webp
     color": bg-primary/5
     layout: stacked
 ---
