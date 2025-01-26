@@ -16,7 +16,7 @@ content:
     layout: stacked
   - type: checklist
     heading: Our Window Installation Options
-    item:
+    items:
       - heading: "Double and Triple Glazing:"
         description: Improve energy efficiency and reduce noise.
       - heading: uPVC Windows
