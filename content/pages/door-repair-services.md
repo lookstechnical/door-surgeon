@@ -12,7 +12,7 @@ content:
     desc: Whether it’s a sticking hinge, a broken lock, or damage to the frame, The
       Door Surgeon offers professional door repair services to restore
       functionality and security.
-    image: static/images/uploads/broken-door.png
+    image: static/images/uploads/dall-e-2025-01-28-19.27.33-a-creative-and-surreal-depiction-of-a-professional-worker-fixing-a-broken-door-in-a-bright-and-modern-home-interior.-the-setting-is-a-cosy-living-spac.webp
     layout: stacked
   - type: checklist
     heading: Our Door Repair Services
