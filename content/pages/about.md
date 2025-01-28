@@ -8,7 +8,10 @@ content:
     color: "#f0bcbc"
     layout: stacked
     Beckgroun Color": bg-primary/10
-    desc: The Door Surgeon
+    desc: The Door Surgeon is a family-owned business dedicated to repairing,
+      installing, and maintaining doors and windows across West Yorkshire We’ve
+      built our reputation on reliability, quality, and outstanding customer
+      service
     highlight: Who are we?
     type: hero
     link: The Door Surgeon
