@@ -1,3 +1,4 @@
+import { ContactBlock } from "./contact-block";
 import { HeroLeftImage } from "./hero-left-image";
 import { HeroRightImage } from "./hero-right-image";
 import { StackedContentBlock } from "./stacked-content-block";
@@ -10,6 +11,8 @@ export const Hero = ({ component, index }: any) => {
       return <HeroRightImage index={index} {...component} />;
     case "stacked":
       return <StackedContentBlock index={index} {...component} />;
+    case "contact":
+      return <ContactBlock index={index} {...component} />;
     default:
       return <HeroLeftImage index={index} {...component} />;
   }

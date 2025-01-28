@@ -73,7 +73,13 @@ collections:
                   label: "Layout",
                   name: "layout",
                   widget: "select",
-                  options: ["hero-left-image", "hero-right-image", "stacked"],
+                  options:
+                    [
+                      "hero-left-image",
+                      "hero-right-image",
+                      "stacked",
+                      "contact",
+                    ],
                 }
           - label: "Stats"
             name: "stats"
