@@ -11,8 +11,7 @@ content:
   - type: hero
     heading: Double Glazing Repairs and Replacements
     highlight: Professional
-    desc:
-      Double-glazed windows are essential for keeping your property warm, quiet,
+    desc: Double-glazed windows are essential for keeping your property warm, quiet,
       and secure. If your units are misted, cracked, or no longer performing
       efficiently, our expert servicing can restore their functionality and
       aesthetics. At The Door Surgeon, we specialise in repairing and replacing
@@ -20,7 +19,7 @@ content:
       longevity.
     layout: stacked
     color": bg-primary/5
-    image: static/images/uploads/dall-e-2025-01-25-13.21.38-a-surreal-and-professional-image-in-the-style-of-a-surgeon-operating-on-a-door-but-instead-featuring-a-craftsman-in-a-surgical-operating-room-setting.webp
+    image: static/images/uploads/dall-e-2025-01-28-19.30.57-a-creative-and-surreal-depiction-of-a-professional-worker-fixing-a-broken-double-glazed-window-in-a-bright-and-modern-home-interior.-the-setting-is-a-.webp
   - type: checklist
     heading: Our Double Glazed Unit Service
     highlight: ""
@@ -29,29 +28,25 @@ content:
         description: Remove unsightly condensation trapped between panes with a
           like-for-like replacement.
       - heading: Seal Repairs and Resealing
-        description:
-          " Fix draughts and leaks by repairing or replacing worn seals to
+        description: " Fix draughts and leaks by repairing or replacing worn seals to
           ensure proper insulation."
       - heading: Cracked or Broken Glass Repairs
-        description:
-          Replace damaged panes to restore the safety, appearance, and
+        description: Replace damaged panes to restore the safety, appearance, and
           efficiency of your windows.
       - heading: Upgrades to Energy-Efficient Units
-        description:
-          Upgrade older units with modern, energy-efficient double glazing
+        description: Upgrade older units with modern, energy-efficient double glazing
           for enhanced performance.
       - heading: Custom Sizes and Shapes
-        description:
-          We can repair or replace double-glazed units of any size or design,
+        description: We can repair or replace double-glazed units of any size or design,
           tailored to your specific needs.
     desc: Comprehensive Solutions for All Double-Glazing Issues
-  - type: hero
-    heading: Contact The Door Surgeon Today
-    highlight: "Get Your Double Glazed Units Back in Top Shape! "
-    link: tel:07912 294 111
-    linkTitle: 07912 294 111
-    desc: " "
-    color: "bg-primary/10"
+  - heading: Contact The Door Surgeon Today
+    color: bg-primary/10
     layout: hero-left-image
+    desc: " "
+    highlight: "Get Your Double Glazed Units Back in Top Shape! "
+    type: hero
+    link: tel:07912 294 111
     image: static/images/uploads/dall-e-2025-01-25-13.16.38-a-professional-workshop-or-storefront-specialising-in-double-glazed-unit-servicing-featuring-craftsmen-working-on-repairing-and-replacing-misted-or-c.webp
+    linkTitle: 07912 294 111
 ---
