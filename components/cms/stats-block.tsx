@@ -2,7 +2,7 @@ import { Animate } from "../animate/animation";
 
 export const StatsBlock = ({ highlight, heading, description, stats }: any) => {
   return (
-    <div className="bg-primary/5 md:py-10">
+    <div className="bg-primary/5 py-10 pt-0">
       <Animate
         variant="Scale"
         className="bg-primary/20 p-10 rounded-xl flex flex-col gap-4 md:flex-row container max-w-[1200px] mx-auto"

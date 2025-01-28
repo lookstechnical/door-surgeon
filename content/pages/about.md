@@ -19,7 +19,8 @@ content:
     linkTitle: The Door Surgeon
   - type: stats
     heading: " "
-    desc: "With over 25 years experience, we have been delivering high quality
+    description:
+      "With over 25 years experience, we have been delivering high quality
       service throughout West Yorkshire "
     stats:
       - value: 25+

@@ -14,7 +14,7 @@ export const ServiceList = ({
   return (
     <div className={`${color}`}>
       <section
-        className={`container max-w-[1200px] mx-auto py-0  md:py-10 flex flex-col px-4`}
+        className={`container max-w-[1200px] mx-auto py-10 flex flex-col px-4`}
       >
         <div className="flex-col flex md:flex-row md:justify-between justify-start items-start md:items-end md:gap-10 gap-4">
           <div>

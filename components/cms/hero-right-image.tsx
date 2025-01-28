@@ -31,7 +31,7 @@ export const HeroRightImage = ({
   index,
 }: any) => {
   return (
-    <section className={`p-4 md:py-10 ${color}`}>
+    <section className={`p-4 py-10 ${color}`}>
       <section className="flex flex-col md:flex-row container max-w-[1200px] mx-auto py-0 items-center overflow-hidden px-4">
         <div className="md:w-1/2">
           <Animate variant="FadeInRight">
