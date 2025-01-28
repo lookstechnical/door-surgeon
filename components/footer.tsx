@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import Link from "next/link";
+import { Whatsapp } from "./icons/whatsapp";
 
 export function Footer() {
   return (
@@ -22,8 +23,11 @@ export function Footer() {
               >
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-primary-200 hover:text-primary-400">
-                <Instagram className="h-6 w-6" />
+              <a
+                href="https://api.whatsapp.com/send/?phone=07912294111"
+                className="text-primary-200 hover:text-primary-400"
+              >
+                <Whatsapp className="h-6 w-6" />
               </a>
             </div>
           </div>
@@ -102,8 +106,8 @@ export function Footer() {
             <ul className="space-y-2 text-primary-400">
               {/* <li>123 something Street</li>
               <li>Bradford, West Yorkshire5</li> */}
-              <li>Phone: 07912 294 111</li>
-              <li>Email: sean@thedoorsurgeon.co.uk</li>
+              <li>07912 294 111</li>
+              <li>sean@thedoorsurgeon.co.uk</li>
             </ul>
           </div>
         </div>
