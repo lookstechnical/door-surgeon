@@ -25,9 +25,6 @@ export function Footer() {
               <a href="#" className="text-primary-200 hover:text-primary-400">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="text-primary-200 hover:text-primary-400">
-                <Twitter className="h-6 w-6" />
-              </a>
             </div>
           </div>
 
