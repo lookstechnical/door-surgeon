@@ -142,7 +142,7 @@ collections:
                   multiple: true,
                   search_fields: ["title"],
                   value_field: "slug",
-                  display_fields: ["title", "slug", description],
+                  display_fields: ["title"],
                 }
           - label: "Alert"
             name: "alert"
