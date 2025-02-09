@@ -6,9 +6,10 @@ description: Services
 content:
   - type: servicelist
     services:
-      - services/double-glazed-unit-service
-      - services/window-repair-services
       - services/door-repair-services
+      - services/window-repair-services
+      - services/bifold-patio-door-repairs
+      - services/double-glazed-unit-service
       - services/door-and-window-installations
     heading: For All Your Window and Door Needs
     desc: At The Door Surgeon, we take pride in offering a comprehensive range of
