@@ -10,15 +10,16 @@ seodescription: Looking for reliable window repairs in West Yorkshire? Our
   on offering affordable pricing, professional service, and high-quality repairs
   to match your home’s needs. Call today for fast, local window repairs in West
   Yorkshire, and experience the best window service around! for a few seconds
-description: Looking for reliable window repairs in West Yorkshire? Our
-  experienced team is here to provide top-notch repair services for all types of
-  windows, ensuring your home stays secure, energy-efficient, and looking great!
-  Whether you need double glazing repairs, broken window replacement, or need to
-  fix stuck or misaligned windows, we specialise in quick and effective
-  solutions. Serving Leeds, Wakefield, Bradford, and beyond, we pride ourselves
-  on offering affordable pricing, professional service, and high-quality repairs
-  to match your home’s needs. Call today for fast, local window repairs in West
-  Yorkshire, and experience the best window service around! for a few seconds
+description: >-
+  Looking for reliable window repairs in West Yorkshire? Our experienced team is
+  here to provide top-notch repair services for all types of windows, ensuring
+  your home stays secure, energy-efficient, and looking great! Whether you need
+  double glazing repairs, broken window replacement, or need to fix stuck or
+  misaligned windows, we specialise in quick and effective solutions. \
+
+  \
+
+  Serving **Leeds**, **Wakefield**, **Bradford**, and beyond, we pride ourselves on offering affordable pricing, professional service, and high-quality repairs to match your home’s needs. Call today for fast, local window repairs in West Yorkshire, and experience the best window service around! for a few seconds
 content:
   - type: hero
     heading: Professional Window Repairs
