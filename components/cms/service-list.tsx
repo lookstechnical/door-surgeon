@@ -28,7 +28,7 @@ export const ServiceList = ({
           </div>
         </div>
         <div className="md:py-10 py-4">
-          <ul className="grid grid-cols-1 md:grid-cols-4 flex-wrap gap-4 overflow-hidden pt-10">
+          <ul className="grid grid-cols-1 md:grid-cols-2 flex-wrap gap-4 overflow-hidden pt-10">
             {services?.map((slug: string) => {
               const service = getBySlug(slug.split("/"));
 
@@ -36,7 +36,7 @@ export const ServiceList = ({
                 <Animate
                   as="li"
                   variant="FadeInBottom"
-                  className="flex-row gap-10 items-start pb-10 odd:bg-primary odd:text-white border-primary border-2 p-4 rounded-xl"
+                  className="flex-row gap-10 items-start pb-10 [&:nth-child(4n+1)]:bg-primary [&:nth-child(4n+4)]:bg-primary [&:nth-child(4n+1)]:text-white [&:nth-child(4n+4)]:text-white [&:nth-child(4n+3)]:text-black [&:nth-child(4n+2)]:text-black border-primary border-2 p-4 rounded-xl"
                 >
                   <Link
                     href={service?.slug}

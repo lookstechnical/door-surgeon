@@ -10,8 +10,7 @@ import { Heading } from "@/components/cms/title";
 import { getBySlug, getSlugs } from "@/src/utils";
 
 export async function generateMetadata({ params }: any): Promise<any> {
-  const { slug = [], locale } = params;
-
+  const { slug = [] } = params;
   const page = getBySlug(slug);
 
   if (page) {
@@ -29,6 +28,7 @@ export async function generateMetadata({ params }: any): Promise<any> {
 
 export function generateStaticParams() {
   const slugs = getSlugs();
+  console.log({ slugs });
   return slugs;
 }
 
