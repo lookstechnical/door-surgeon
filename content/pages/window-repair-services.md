@@ -10,16 +10,12 @@ seodescription: Looking for reliable window repairs in West Yorkshire? Our
   on offering affordable pricing, professional service, and high-quality repairs
   to match your home’s needs. Call today for fast, local window repairs in West
   Yorkshire, and experience the best window service around! for a few seconds
-description: >-
-  Looking for reliable window repairs in West Yorkshire? Our experienced team is
-  here to provide top-notch repair services for all types of windows, ensuring
-  your home stays secure, energy-efficient, and looking great! Whether you need
-  double glazing repairs, broken window replacement, or need to fix stuck or
-  misaligned windows, we specialise in quick and effective solutions. \
-
-  \
-
-  Serving **Leeds**, **Wakefield**, **Bradford**, and **beyond**, we pride ourselves on offering affordable pricing, professional service, and high-quality repairs to match your home’s needs. Call today for fast, local window repairs in West Yorkshire, and experience the best window service around! for a few seconds
+description: Looking for reliable window repairs in West Yorkshire? Our
+  experienced team is here to provide top-notch repair services for all types of
+  windows, ensuring your home stays secure, energy-efficient, and looking great!
+  Whether you need double glazing repairs, broken window replacement, or need to
+  fix stuck or misaligned windows, we specialise in quick and effective
+  solutions.
 content:
   - type: hero
     heading: Professional Window Repairs
@@ -40,7 +36,11 @@ content:
     layout: stacked
   - type: checklist
     heading: Our Window Repair Services
-    desc: No Job Too Big or Small
+    desc: Serving Leeds, Wakefield, Bradford, and beyond, we pride ourselves on
+      offering affordable pricing, professional service, and high-quality
+      repairs to match your home’s needs. Call today for fast, local window
+      repairs in West Yorkshire, and experience the best window service around!
+      for a few seconds
     items:
       - heading: Glass Replacement
         description: We replace broken or cracked panes, ensuring a perfect fit.
