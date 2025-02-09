@@ -24,8 +24,8 @@ export const ServiceList = ({
             )}
             <h2 className="text-4xl md:text-6xl">{heading}</h2>
           </div>
-          <div className="md:text-right md:pt-6 md:text-xl">
-            <ReactMarkdown>{desc}</ReactMarkdown>
+          <div className="md:text-right">
+            <p className="md:pt-6 md:text-xl">{desc}</p>
           </div>
         </div>
         <div className="md:py-10 py-4">
@@ -52,7 +52,9 @@ export const ServiceList = ({
                       <h3 className="text-2xl text-inherit pt-2">
                         {service?.title}
                       </h3>
-                      <p className="pt-6 text-md">{service?.description}</p>
+                      <div className="pt-6 text-md">
+                        <ReactMarkdown>{service?.description}</ReactMarkdown>
+                      </div>
                     </div>
                   </Link>
                 </Animate>
