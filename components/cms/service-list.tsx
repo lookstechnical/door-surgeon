@@ -36,7 +36,7 @@ export const ServiceList = ({
                 <Animate
                   as="li"
                   variant="FadeInBottom"
-                  className="flex-row gap-10 items-start pb-10 [&:nth-child(4n+1)]:bg-primary [&:nth-child(4n+4)]:bg-primary [&:nth-child(4n+1)]:text-white [&:nth-child(4n+4)]:text-white [&:nth-child(4n+3)]:text-black [&:nth-child(4n+2)]:text-black border-primary border-2 p-4 rounded-xl"
+                  className="flex-row gap-10 items-start pb-10 odd:bg-primary odd:text-white md:odd:bg-white md:[&:nth-child(4n+1)]:bg-primary md:[&:nth-child(4n+4)]:bg-primary md:[&:nth-child(4n+1)]:text-white md:[&:nth-child(4n+4)]:text-white md:[&:nth-child(4n+3)]:text-black md:[&:nth-child(4n+2)]:text-black border-primary border-2 p-4 rounded-xl"
                 >
                   <Link
                     href={service?.slug}
