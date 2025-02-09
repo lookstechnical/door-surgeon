@@ -1,6 +1,6 @@
 ---
 name: The Door Surgeon
-email: sean@thedoorsurgeon.co.uk
+email: thedoorsurgeon@gmail.com
 phone: 07912 294 111
 address: kjn
 facebook: kjnj

@@ -133,7 +133,7 @@ collections:
                   required: false,
                 }
               - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Description", name: "desc", widget: "markdown" }
               - {
                   label: "Services",
                   name: "services",
