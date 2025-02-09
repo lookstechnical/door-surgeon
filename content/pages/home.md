@@ -35,7 +35,7 @@ content:
         description: We use only the best materials to ensure durability, energy
           efficiency, and long-lasting beauty.
       - heading: Emergency Services
-        description: 24/7 for issues quickly and efficiently.
+        description: quickly and efficient service.
     item:
       - heading: Experienced Professionals
         description: With decades of combined expertise, we understand how to diagnose
