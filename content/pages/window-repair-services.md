@@ -19,13 +19,12 @@ description: Looking for reliable window repairs in West Yorkshire? Our
 content:
   - type: hero
     heading: Professional Window Repairs
-    highlight: Are you looking for reliable window repairs in West Yorkshire?
-    desc: "Looking for reliable window repairs in West Yorkshire? Our experienced
-      team is here to provide top-notch repair services for all types of
-      windows, ensuring your home stays secure, energy-efficient, and looking
-      great! Whether you need double glazing repairs, broken window replacement,
-      or need to fix stuck or misaligned windows, we specialise in quick and
-      effective solutions. "
+    highlight: "Looking for reliable window repairs in West Yorkshire? "
+    desc: "Our experienced team is here to provide top-notch repair services for all
+      types of windows, ensuring your home stays secure, energy-efficient, and
+      looking great! Whether you need double glazing repairs, broken window
+      replacement, or need to fix stuck or misaligned windows, we specialise in
+      quick and effective solutions. "
     image: static/images/uploads/dall-e-2025-01-26-16.29.03-a-creative-and-surreal-depiction-of-a-professional-worker-fixing-broken-windows-in-a-bright-and-modern-home-interior.-the-setting-is-a-cosy-living-spa.webp
     color": bg-primary/5
     layout: stacked
