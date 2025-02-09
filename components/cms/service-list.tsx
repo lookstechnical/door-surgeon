@@ -2,6 +2,7 @@ import { KeyIcon } from "lucide-react";
 import { Animate } from "../animate/animation";
 import { getBySlug } from "@/src/utils";
 import Link from "next/link";
+import ReactMarkdown from "react-markdown";
 
 export const ServiceList = ({
   highlight,
@@ -23,8 +24,8 @@ export const ServiceList = ({
             )}
             <h2 className="text-4xl md:text-6xl">{heading}</h2>
           </div>
-          <div className="md:text-right">
-            <p className="md:pt-6 md:text-xl">{desc}</p>
+          <div className="md:text-right md:pt-6 md:text-xl">
+            <ReactMarkdown>{desc}</ReactMarkdown>
           </div>
         </div>
         <div className="md:py-10 py-4">
