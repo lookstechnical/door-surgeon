@@ -57,7 +57,7 @@ collections:
                 }
               - {
                   label: "Background Color",
-                  name: color",
+                  name: color,
                   widget: "select",
                   required: false,
                   options:
@@ -164,7 +164,7 @@ collections:
             fields:
               - {
                   label: "Background Color",
-                  name: color",
+                  name: color,
                   widget: "select",
                   required: false,
                   options:
