@@ -27,6 +27,15 @@ content:
     color": bg-primary/5
     layout: stacked
   - type: checklist
+    heading: Composite Door Installation
+    desc: Enhance your home's appearance and security with our expert composite door
+      installation services in West Yorkshire. Our locally trusted team
+      specialises in fitting high-quality composite doors that offer superior
+      durability, style, and security for both residential and commercial
+      properties. Engineered to withstand harsh weather conditions, our
+      composite doors provide a sleek, contemporary design that complements any
+      home while ensuring long-lasting performance.
+  - type: checklist
     heading: uPVC Window Installation
     items:
       - heading: "Double and Triple Glazing:"
@@ -51,13 +60,4 @@ content:
       and discover how our expert installation services can transform your
       property with superior composite doors and uPVC windows designed to last.
     heading: Why Choose Us?
-  - type: checklist
-    heading: Composite Door Installation
-    desc: Enhance your home's appearance and security with our expert composite door
-      installation services in West Yorkshire. Our locally trusted team
-      specialises in fitting high-quality composite doors that offer superior
-      durability, style, and security for both residential and commercial
-      properties. Engineered to withstand harsh weather conditions, our
-      composite doors provide a sleek, contemporary design that complements any
-      home while ensuring long-lasting performance.
 ---
