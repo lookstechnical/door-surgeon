@@ -26,31 +26,8 @@ content:
     image: static/images/uploads/dall-e-2025-01-26-16.28.17-a-creative-and-surreal-depiction-of-window-and-door-installations-in-a-residential-setting-featuring-a-professional-worker-installing-a-window-and-do.webp
     color": bg-primary/5
     layout: stacked
-  - type: hero
-    desc: Enhance your home's appearance and security with our expert composite door
-      installation services in West Yorkshire. Our locally trusted team
-      specialises in fitting high-quality composite doors that offer superior
-      durability, style, and security for both residential and commercial
-      properties. Engineered to withstand harsh weather conditions, our
-      composite doors provide a sleek, contemporary design that complements any
-      home while ensuring long-lasting performance.
-    color": bg-primary/10
-    image: static/images/uploads/dall-e-2025-01-26-16.28.17-a-creative-and-surreal-depiction-of-window-and-door-installations-in-a-residential-setting-featuring-a-professional-worker-installing-a-window-and-do.webp
-    heading: Composite Door Installation
-    layout: hero-right-image
-  - type: hero
-    heading: uPVC Window Installation
-    desc: Upgrade your property with our professional uPVC window installation
-      services in West Yorkshire. Our uPVC windows are designed for enhanced
-      insulation, low maintenance, and a modern aesthetic that increases overall
-      property value. By using state-of-the-art techniques and premium
-      materials, we ensure superior energy efficiency and improved thermal
-      performance, helping you save on energy bills while maintaining a
-      comfortable indoor environment.
-    layout: hero-left-image
-    image: static/images/uploads/install-windows.webp
   - type: checklist
-    heading: Our Window Installation Options
+    heading: uPVC Window Installation
     items:
       - heading: "Double and Triple Glazing:"
         description: Improve energy efficiency and reduce noise.
@@ -58,10 +35,13 @@ content:
         description: Durable and low-maintenance solutions for modern homes.
       - heading: Custom Shapes and Sizes
         description: Bespoke windows and doors to suit your space.
-    desc: "  In addition to composite doors, we provide professional uPVC window
-      installation throughout West Yorkshire, ensuring your property benefits
-      from enhanced insulation, low maintenance, and a modern look that
-      increases overall property value."
+    desc: Upgrade your property with our professional uPVC window installation
+      services in West Yorkshire. Our uPVC windows are designed for enhanced
+      insulation, low maintenance, and a modern aesthetic that increases overall
+      property value. By using state-of-the-art techniques and premium
+      materials, we ensure superior energy efficiency and improved thermal
+      performance, helping you save on energy bills while maintaining a
+      comfortable indoor environment.
   - type: alert
     desc: Choosing our composite door and uPVC window installation services means
       investing in quality, efficiency, and exceptional customer service. With
