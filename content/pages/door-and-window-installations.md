@@ -30,11 +30,23 @@ content:
         description: Improve energy efficiency and reduce noise.
       - heading: uPVC Windows
         description: Durable and low-maintenance solutions for modern homes.
-      - heading: Patio and Sliding Doors
-        description: Seamlessly connect your indoor and outdoor spaces.
-      - heading: Front Doors
-        description: Make a great first impression with secure, stylish front doors.
       - heading: Custom Shapes and Sizes
         description: Bespoke windows and doors to suit your space.
-    desc: " "
+    desc: "  In addition to composite doors, we provide professional uPVC window
+      installation throughout West Yorkshire, ensuring your property benefits
+      from enhanced insulation, low maintenance, and a modern look that
+      increases overall property value."
+  - type: hero
+    desc: Our composite doors are engineered to withstand harsh weather conditions
+      while providing a sleek, contemporary design that complements any home.
+      Coupled with our uPVC window installation services, you can enjoy
+      significant energy savings and improved thermal performance throughout
+      your property. We use state-of-the-art techniques and premium materials to
+      deliver installations that not only meet but exceed industry standards,
+      ensuring a secure, weather-resistant finish that West Yorkshire residents
+      can rely on year-round.
+    color": bg-primary/10
+    image: static/images/uploads/dall-e-2025-01-26-16.28.17-a-creative-and-surreal-depiction-of-window-and-door-installations-in-a-residential-setting-featuring-a-professional-worker-installing-a-window-and-do.webp
+    heading: Door instalations
+    layout: hero-right-image
 ---
