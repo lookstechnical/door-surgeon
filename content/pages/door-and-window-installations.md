@@ -3,12 +3,11 @@ title: Door and window installations
 slug: services/door-and-window-installations
 seodescription: Upgrade to energy-efficient, beautifully designed windows that
   enhance your property’s look and lower energy bills.
-description: >-
-  Enhance your home's appearance and energy efficiency with our expert composite
-  door installation and uPVC window installation services in West Yorkshire. 
-
-
-  Our locally trusted team specialises in installing high-quality composite doors that offer superior security, durability, and style for both residential and commercial properties. In addition to composite doors, we provide professional uPVC window installation throughout West Yorkshire, ensuring your property benefits from enhanced insulation, low maintenance, and a modern look that increases overall property value.
+description: Enhance your home's appearance and energy efficiency with our
+  expert composite door installation and uPVC window installation services in
+  West Yorkshire. Our locally trusted team specialises in installing
+  high-quality composite doors that offer superior security, durability, and
+  style for both residential and commercial properties.
 content:
   - type: hero
     highlight: "Beautiful, Energy-Efficient "
