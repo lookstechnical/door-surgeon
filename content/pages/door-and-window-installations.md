@@ -35,6 +35,7 @@ content:
       properties. Engineered to withstand harsh weather conditions, our
       composite doors provide a sleek, contemporary design that complements any
       home while ensuring long-lasting performance.
+    layout: right
   - type: checklist
     heading: uPVC Window Installation
     items:
@@ -51,6 +52,8 @@ content:
       materials, we ensure superior energy efficiency and improved thermal
       performance, helping you save on energy bills while maintaining a
       comfortable indoor environment.
+    layout: left
+    color": bg-primary/10
   - type: alert
     desc: Choosing our composite door and uPVC window installation services means
       investing in quality, efficiency, and exceptional customer service. With
