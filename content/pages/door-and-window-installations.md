@@ -38,6 +38,17 @@ content:
     image: static/images/uploads/dall-e-2025-01-26-16.28.17-a-creative-and-surreal-depiction-of-window-and-door-installations-in-a-residential-setting-featuring-a-professional-worker-installing-a-window-and-do.webp
     heading: Composite Door Installation
     layout: hero-right-image
+  - type: hero
+    heading: uPVC Window Installation
+    desc: Upgrade your property with our professional uPVC window installation
+      services in West Yorkshire. Our uPVC windows are designed for enhanced
+      insulation, low maintenance, and a modern aesthetic that increases overall
+      property value. By using state-of-the-art techniques and premium
+      materials, we ensure superior energy efficiency and improved thermal
+      performance, helping you save on energy bills while maintaining a
+      comfortable indoor environment.
+    layout: hero-left-image
+    image: static/images/uploads/install-windows.webp
   - type: checklist
     heading: Our Window Installation Options
     items:
@@ -51,15 +62,13 @@ content:
       installation throughout West Yorkshire, ensuring your property benefits
       from enhanced insulation, low maintenance, and a modern look that
       increases overall property value."
-  - type: hero
-    heading: uPVC Window Installation
-    desc: Upgrade your property with our professional uPVC window installation
-      services in West Yorkshire. Our uPVC windows are designed for enhanced
-      insulation, low maintenance, and a modern aesthetic that increases overall
-      property value. By using state-of-the-art techniques and premium
-      materials, we ensure superior energy efficiency and improved thermal
-      performance, helping you save on energy bills while maintaining a
-      comfortable indoor environment.
-    layout: hero-left-image
-    image: static/images/uploads/install-windows.webp
+  - type: alert
+    desc: Choosing our composite door and uPVC window installation services means
+      investing in quality, efficiency, and exceptional customer service. With
+      years of experience serving the local community, our dedicated team
+      provides tailored solutions that enhance both the functionality and
+      aesthetic appeal of your home. Contact us today for a free consultation
+      and discover how our expert installation services can transform your
+      property with superior composite doors and uPVC windows designed to last.
+    heading: Why Choose Us?
 ---
