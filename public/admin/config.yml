@@ -163,6 +163,26 @@ collections:
             summary: "{{fields.header}}"
             fields:
               - {
+                  label: "Background Color",
+                  name: color",
+                  widget: "select",
+                  required: false,
+                  options:
+                    [
+                      "bg-primary",
+                      "bg-primary/50",
+                      "bg-primary/20",
+                      "bg-primary/10",
+                      "bg-primary/5",
+                    ],
+                }
+              - {
+                  label: "Layout",
+                  name: "layout",
+                  widget: "select",
+                  options: ["left", "right"],
+                }
+              - {
                   label: "Highlight",
                   name: "highlight",
                   widget: "string",
