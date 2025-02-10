@@ -66,5 +66,5 @@ content:
       dedicated team today for a free consultation and a prompt service
       appointment. Experience the difference with a door repair company that
       prioritizes your safety, satisfaction, and long-term value.
-    heading: Commitment to Quality and Customer Satisfaction
+    heading: Why Choose us?
 ---
