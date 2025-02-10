@@ -43,6 +43,7 @@ content:
         description: A wide range of styles, colors, and finishes to match your home.
       - heading: Energy Efficiency
         description: Excellent insulation to reduce heat loss and lower energy bills.
+    color": bg-primary/20
   - type: checklist
     heading: uPVC Window Installation
     items:
