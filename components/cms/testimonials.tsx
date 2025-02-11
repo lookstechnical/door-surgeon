@@ -77,7 +77,7 @@ export const Testimonials = () => {
         <div className="flex flex-row items-center justify-center gap-4 mt-8">
           <p className="text-xl">See more reviews: </p>
           <Link
-            href="https://www.yell.com/biz/the-door-surgeon-bradford-7061137/"
+            href="https://search.google.com/local/reviews?placeid=ChIJn9FGVZrde0gRZAKmmvH4_Mo"
             className="flex flex-row items-center justify-center gap-2 hover:text-primary"
           >
             <Image
