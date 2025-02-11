@@ -25,4 +25,6 @@ content:
     stats:
       - value: 25+
         description: years experience
+  - type: testimonials
+    heading: ""
 ---

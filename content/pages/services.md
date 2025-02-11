@@ -12,8 +12,11 @@ content:
       - services/double-glazed-unit-service
       - services/door-and-window-installations
     heading: For All Your Window and Door Needs
-    desc: At The Door Surgeon, we take pride in offering a comprehensive range of
+    desc:
+      At The Door Surgeon, we take pride in offering a comprehensive range of
       services designed to keep your windows and doors in top condition. Whether
       you need precise repairs, seamless installations, or emergency assistance.
     highlight: Expert Solutions
+  - type: testimonials
+    heading: ""
 ---

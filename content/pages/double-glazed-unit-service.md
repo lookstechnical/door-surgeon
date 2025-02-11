@@ -24,7 +24,8 @@ content:
   - type: hero
     heading: Double Glazing Repairs and Replacements
     highlight: Professional
-    desc: Looking for expert double glazing unit repairs and glass replacement in
+    desc:
+      Looking for expert double glazing unit repairs and glass replacement in
       West Yorkshire? We specialize in replacing damaged or inefficient double
       glazed units with high-quality, energy-efficient solutions. Our
       professional services help improve insulation, reduce energy costs, and
@@ -42,17 +43,20 @@ content:
     highlight: Expert
     items:
       - heading: "Double Glazed Unit Replacement:"
-        description: Upgrade your UPVC windows, timber windows, or UPVC patio doors with
+        description:
+          Upgrade your UPVC windows, timber windows, or UPVC patio doors with
           high-quality double glazed units. This service involves the precise
           removal of damaged units and the installation of new ones, improving
           energy efficiency, noise reduction, and security.
       - heading: "Seal and Gasket Repairs:"
-        description: Deteriorating seals and gaskets can lead to condensation and
+        description:
+          Deteriorating seals and gaskets can lead to condensation and
           reduced thermal performance. Our repair service includes inspecting
           and replacing worn-out seals on double glazed units for UPVC windows,
           timber windows, and patio doors, ensuring a tight, weatherproof fit.
       - heading: "Routine Maintenance and Inspection:"
-        description: Regular maintenance helps detect early signs of wear in double
+        description:
+          Regular maintenance helps detect early signs of wear in double
           glazed units and glass components. Our comprehensive inspection
           services for UPVC windows, timber windows, and UPVC patio doors ensure
           that seals, gaskets, and glass integrity are maintained, preventing
@@ -83,7 +87,8 @@ content:
       time.
     items:
       - heading: "Glass Crack and Chip Repairs:"
-        description: Address minor damages such as cracks or chips in your double glazed
+        description:
+          Address minor damages such as cracks or chips in your double glazed
           glass quickly. Expert technicians perform on-site repairs to prevent
           further damage, maintaining clarity and ensuring that your UPVC
           windows, timber windows, and patio doors remain secure and
@@ -95,12 +100,15 @@ content:
           specifications for UPVC and timber windows, as well as UPVC patio
           doors.
       - heading: "Emergency Repair Services:"
-        description: In cases of unexpected damage, our emergency repair services offer
+        description:
+          In cases of unexpected damage, our emergency repair services offer
           a rapid response to fix broken double glazed units or glass panels.
           This minimizes security risks and restores energy efficiency for UPVC
           windows, timber windows, and UPVC patio doors as quickly as possible.
     layout: right
     color: bg-primary/10
+  - type: testimonials
+    heading: ""
   - type: hero
     heading: Professional Double Glazing
     highlight: Benefits
