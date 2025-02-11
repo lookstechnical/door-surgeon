@@ -102,7 +102,7 @@ content:
     layout: right
     color: bg-primary/10
   - type: hero
-    heading: Professional Double Glazed
+    heading: Professional Double Glazing
     highlight: Benefits
     desc: Investing in professional double glazed unit replacement and glass
       replacement in West Yorkshire is a smart decision for any property owner.
