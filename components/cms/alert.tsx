@@ -7,7 +7,7 @@ export const Alert = ({ heading, highlight, desc }: any) => {
     <section className="container mx-auto max-w-[1200px] text-white py-10 px-4">
       <Animate
         variant="Scale"
-        className="bg-primary p-0 md:p-10 py-40 rounded-xl text-white flex flex-col justify-center items-center"
+        className="bg-primary px-0 md:px-10 py-40 rounded-xl text-white flex flex-col justify-center items-center"
       >
         {highlight && <p>{highlight}</p>}
         <h3 className="text-4xl md:text-6xl text-white text-center">
