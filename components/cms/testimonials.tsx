@@ -41,8 +41,8 @@ export const Testimonials = () => {
         <p className="text-primary">Tesitmonials</p>
         <h3 className="text-4xl md:text-5xl pb-10">Our Customers Say</h3>
 
-        <div ref={emblaRef} className="embla w-full">
-          <ul className="flex flex-row gap-4 justify-between embla__container w-full">
+        <div ref={emblaRef} className="embla w-full min-h-[300px] ">
+          <ul className="flex flex-row gap-4 justify-between embla__container w-full h-full">
             {reviews.map((review: any) => (
               <li className="h-[300px] flex flex-col bg-primary/20 p-4 rounded-xl flex-[0_0_100%] md:flex-[0_0_25%] embla__slide relative">
                 <div>
@@ -63,7 +63,7 @@ export const Testimonials = () => {
                       ))}
                     </div>
                   </div>
-                  <p className="max-h-[150px] overflow-hidden overflow-elipsis y-4">
+                  <p className="max-h-[150px] overflow-hidden y-4 text-ellipsis">
                     {review.text}
                   </p>
                   <p className="absolute bottom-4 right-4 text-right font-bold capitalize ">
