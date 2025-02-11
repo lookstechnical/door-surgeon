@@ -14,9 +14,9 @@ export const StackedContentBlock = ({
           variant="FadeInBottom"
           className="flex items-center justify-center flex-col md:px-40 text-center"
         >
-          <p className="pt-4 text-primary text-lg">{highlight}</p>
-          <h1 className="text-6xl">{heading}</h1>
-          <p className="pt-4 text-lg">{desc}</p>
+          <p className="pt-4 text-primary text-md mdtext-lg">{highlight}</p>
+          <h1 className="text-4xl md:text-6xl">{heading}</h1>
+          <p className="pt-4 text-md mdtext-lg">{desc}</p>
         </Animate>
         <div className="w-full pt-10 ">
           <Animate variant="FadeInBottom" delay={0.25} className="">

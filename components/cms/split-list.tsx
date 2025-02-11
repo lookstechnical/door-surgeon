@@ -19,8 +19,8 @@ export const SplitList = ({
       >
         <div
           className={`${
-            layout === "left" ? "text-right" : "text-left"
-          } md:w-1/2 pr-20 animate-fadeInLeft duration-500`}
+            layout === "left" ? "text-right md:pl-20" : "text-left md:pr-20"
+          } md:w-1/2 animate-fadeInLeft duration-500`}
         >
           {highlight && <p className="text-primary pb-2">{highlight}</p>}
           <h2 className="text-5xl">{heading}</h2>
