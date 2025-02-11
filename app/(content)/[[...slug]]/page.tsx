@@ -28,7 +28,6 @@ export async function generateMetadata({ params }: any): Promise<any> {
 
 export function generateStaticParams() {
   const slugs = getSlugs();
-  console.log({ slugs });
   return slugs;
 }
 

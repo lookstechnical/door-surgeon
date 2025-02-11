@@ -29,8 +29,6 @@ export const Testimonials = () => {
     const fetchAllReviews = async () => {
       const [googleReviews] = await Promise.all([fetchGoogleReviews()]);
 
-      console.log({ googleReviews });
-
       setReviews(googleReviews.filter((review: any) => review.rating >= 4));
       setLoading(false);
     };
