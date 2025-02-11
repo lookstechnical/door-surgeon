@@ -64,11 +64,12 @@ content:
     color: bg-primary/10
   - type: alert
     desc: Choosing our composite door and uPVC window installation services means
-      investing in quality, efficiency, and exceptional customer service. With
-      years of experience serving the local community, our dedicated team
-      provides tailored solutions that enhance both the functionality and
-      aesthetic appeal of your home. Contact us today for a free consultation
-      and discover how our expert installation services can transform your
-      property with superior composite doors and uPVC windows designed to last.
+      investing in quality, efficiency, and exceptional customer service in
+      Leeds, Bradford, Wakefield and across West Yorkshite. With years of
+      experience serving the local community, our dedicated team provides
+      tailored solutions that enhance both the functionality and aesthetic
+      appeal of your home. Contact us today for a free consultation and discover
+      how our expert installation services can transform your property with
+      superior composite doors and uPVC windows designed to last.
     heading: Why Choose Us?
 ---
