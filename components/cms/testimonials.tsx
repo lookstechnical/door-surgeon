@@ -9,14 +9,11 @@ import Link from "next/link";
 export const Testimonials = () => {
   const [emblaRef] = useEmblaCarousel({ loop: false });
   const [reviews, setReviews] = useState([]);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchGoogleReviews = async () => {
       try {
-        const response = await fetch(
-          `https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJn9FGVZrde0gRZAKmmvH4_Mo&fields=reviews&key=AIzaSyAX9bT208rk-JcH9aUEjUsicJlsWGctiqk`
-        );
+        const response = await fetch(`/api/testimonals`);
         const data = await response.json();
         return data.result?.reviews || [];
       } catch (error) {
@@ -29,7 +26,6 @@ export const Testimonials = () => {
       const [googleReviews] = await Promise.all([fetchGoogleReviews()]);
 
       setReviews(googleReviews.filter((review: any) => review.rating >= 4));
-      setLoading(false);
     };
 
     fetchAllReviews();
@@ -72,6 +68,9 @@ export const Testimonials = () => {
                 </div>
               </li>
             ))}
+            {reviews.length === 0 && (
+              <div className="text-center">No Reviews loaded</div>
+            )}
           </ul>
         </div>
         <div className="flex flex-row items-center justify-center gap-4 mt-8">
