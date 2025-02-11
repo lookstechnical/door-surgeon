@@ -114,6 +114,6 @@ content:
       solutions can transform your windows into high-performance, visually
       appealing assets for your home or business.
     layout: hero-left-image
-    color: bg-primary/10
+    color: bg-primary/5
     image: static/images/uploads/1dfa30f0-13c9-49b4-a311-4d87f3069968.webp
 ---
