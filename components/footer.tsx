@@ -107,7 +107,7 @@ export function Footer() {
               {/* <li>123 something Street</li>
               <li>Bradford, West Yorkshire5</li> */}
               <li>07912 294 111</li>
-              <li>sean@thedoorsurgeon.co.uk</li>
+              <li>thedoorsurgeon@gmail.com</li>
             </ul>
           </div>
         </div>
