@@ -46,7 +46,7 @@ export const Testimonials = () => {
 
         <div ref={emblaRef} className="embla w-full">
           <ul className="flex flex-row gap-4 justify-between embla__container">
-            {reviews.map((review) => (
+            {reviews.map((review: any) => (
               <li className="h-[300px] flex flex-col bg-primary/20 p-4 rounded-xl flex-[0_0_100%] md:flex-[0_0_25%] embla__slide relative">
                 <div>
                   <div className="flex flex-row gap-4">
