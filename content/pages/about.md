@@ -19,9 +19,9 @@ content:
     linkTitle: The Door Surgeon
   - type: stats
     heading: " "
-    description:
-      "With over 25 years experience, we have been delivering high quality
-      service throughout West Yorkshire "
+    description: "With over 25 years experience, we have been delivering high
+      quality service in Leeds, Bradford, Wakefield and throughout West
+      Yorkshire "
     stats:
       - value: 25+
         description: years experience
