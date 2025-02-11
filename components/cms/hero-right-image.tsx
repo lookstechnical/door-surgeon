@@ -62,6 +62,7 @@ export const HeroRightImage = ({
                 height={400}
                 alt={`${heading} image`}
                 src={image}
+                priority={index === 0}
               />
             </div>
           </Animate>

@@ -6,6 +6,7 @@ export const StackedContentBlock = ({
   heading,
   desc,
   image,
+  index,
 }: any) => {
   return (
     <section className="bg-primary/5 py-10 px-4 pb-0">
@@ -26,6 +27,7 @@ export const StackedContentBlock = ({
                 width={700}
                 height={100}
                 src={`/${image}`}
+                priority={index === 0}
                 className="w-full h-full object-cover"
               />
             </div>

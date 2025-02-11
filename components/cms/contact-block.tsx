@@ -4,7 +4,13 @@ import { Animate } from "../animate/animation";
 import { Whatsapp } from "../icons/whatsapp";
 import Image from "next/image";
 
-export const ContactBlock = ({ heading, desc, highlight, image }: any) => {
+export const ContactBlock = ({
+  heading,
+  desc,
+  highlight,
+  image,
+  index,
+}: any) => {
   return (
     <div className="w-full bg-primary/5">
       <section className="container max-w-[1200px] mx-auto py-10 flex flex-col md:flex-row overflow-hidden px-4 ">
@@ -36,6 +42,7 @@ export const ContactBlock = ({ heading, desc, highlight, image }: any) => {
                 height={100}
                 sizes="400px"
                 src={image}
+                priority={index === 0}
               />
             </div>
           </Animate>
