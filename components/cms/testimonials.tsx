@@ -40,7 +40,10 @@ export const Testimonials = () => {
         <div ref={emblaRef} className="embla w-full min-h-[300px] ">
           <ul className="flex flex-row gap-4 justify-between embla__container w-full h-full">
             {reviews.map((review: any) => (
-              <li className="h-[300px] flex flex-col bg-primary/20 p-4 rounded-xl flex-[0_0_100%] md:flex-[0_0_25%] embla__slide relative">
+              <li
+                key={review.author_name}
+                className="h-[300px] flex flex-col bg-primary/20 p-4 rounded-xl flex-[0_0_100%] md:flex-[0_0_25%] embla__slide relative"
+              >
                 <div>
                   <div className="flex flex-row gap-4">
                     <Image
