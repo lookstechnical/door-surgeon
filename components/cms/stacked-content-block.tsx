@@ -29,6 +29,7 @@ export const StackedContentBlock = ({
                 src={`/${image}`}
                 priority={index === 0}
                 className="w-full h-full object-cover"
+                sizes="(min-width: 1240px) 500px, (min-width: 768px) 50vw, 100vw"
               />
             </div>
           </Animate>
