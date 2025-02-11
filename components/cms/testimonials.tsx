@@ -8,7 +8,7 @@ import { Star } from "lucide-react";
 import Link from "next/link";
 
 export const Testimonials = () => {
-  const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
+  const [emblaRef] = useEmblaCarousel({ loop: false });
   const [reviews, setReviews] = useState([]);
   const [loading, setLoading] = useState(true);
 
