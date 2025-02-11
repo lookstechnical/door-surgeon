@@ -13,7 +13,7 @@ export function Footer() {
               Door Surgeon
             </h3>
             <p className="text-primary-400 mb-4">
-              Professional Repair and instalation services for residential and
+              Professional Repair and installation services for residential and
               commercial properties in Leeds, Bradford, Wakefield and across
               West Yorkshire
             </p>
