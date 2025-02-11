@@ -31,7 +31,7 @@ export const Testimonials = () => {
 
       console.log({ googleReviews });
 
-      setReviews(googleReviews.filter((review) => review.rating >= 4));
+      setReviews(googleReviews.filter((review: any) => review.rating >= 4));
       setLoading(false);
     };
 
