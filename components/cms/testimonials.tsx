@@ -63,7 +63,7 @@ export const Testimonials = () => {
                     </div>
                   </div>
                   <p className="max-h-[150px] overflow-hidden y-4 text-ellipsis">
-                    {review.text}
+                    {review.text}...
                   </p>
                   <p className="absolute bottom-4 right-4 text-right font-bold capitalize ">
                     {review.author_name}
