@@ -101,12 +101,6 @@ export function Navigation() {
                 >
                   Contact
                 </Link>
-                <Link
-                  href="https://wa.me/07912294111"
-                  className="bg-primary hover:bg-primary text-white mx-4 block "
-                >
-                  <Whatsapp className="mr-2 h-4 w-4" /> Whatsapp
-                </Link>
               </div>
             </div>
           )}
