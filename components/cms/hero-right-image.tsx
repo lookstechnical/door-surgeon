@@ -2,6 +2,7 @@ import { PhoneCall } from "lucide-react";
 import Link from "next/link";
 import { Animate } from "../animate/animation";
 import React from "react";
+import Image from "next/image";
 
 const colors = [
   "bg-primary",
@@ -56,7 +57,12 @@ export const HeroRightImage = ({
         <div className="md:pl-20 md:w-1/2">
           <Animate variant="FadeInBottom">
             <div className="rounded-xl overflow-hidden">
-              <img src={image} />
+              <Image
+                width={700}
+                height={400}
+                alt={`${heading} image`}
+                src={image}
+              />
             </div>
           </Animate>
         </div>

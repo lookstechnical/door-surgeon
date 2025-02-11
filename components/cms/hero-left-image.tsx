@@ -4,6 +4,7 @@ import { PhoneCall } from "lucide-react";
 import Link from "next/link";
 import { Animate } from "../animate/animation";
 import React from "react";
+import Image from "next/image";
 
 interface HeadingProps {
   level: 1 | 2 | 3 | 4 | 5 | 6; // Restricting to valid heading levels
@@ -22,6 +23,7 @@ export const HeroLeftImage = ({
   linkTitle,
   color,
   index,
+  image,
 }: any) => {
   return (
     <section className={`${color} py-0 py-10`}>
@@ -29,7 +31,12 @@ export const HeroLeftImage = ({
         <div className="md:pr-20 md:w-1/2 pb-4 md:pb-0">
           <Animate variant="FadeInBottom">
             <div className="rounded-xl overflow-hidden">
-              <img src="/img/surgeon.webp" />
+              <Image
+                width={700}
+                height={400}
+                alt={`${heading} image`}
+                src={image}
+              />
             </div>
           </Animate>
         </div>

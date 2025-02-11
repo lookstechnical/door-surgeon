@@ -2,6 +2,7 @@
 
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
+import Image from "next/image";
 
 export const Testimonials = () => {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
@@ -16,7 +17,10 @@ export const Testimonials = () => {
             <li className="flex flex-col bg-primary/20 p-4 rounded-xl flex-[0_0_100%] md:flex-[0_0_25%] embla__slide">
               <div>
                 <div className="flex flex-row gap-4">
-                  <img
+                  <Image
+                    alt="Yel logo"
+                    width={40}
+                    height={40}
                     src="https://www.yell.com/img/yell_icon_256x256.png"
                     className="w-10 h-10 pb-2"
                   />
@@ -33,7 +37,10 @@ export const Testimonials = () => {
             <li className="flex flex-col bg-primary/20 p-4 rounded-xl flex-[0_0_100%] md:flex-[0_0_25%]  embla__slide">
               <div>
                 <div className="flex flex-row gap-4">
-                  <img
+                  <Image
+                    alt="yell icon"
+                    width={40}
+                    height={40}
                     src="https://www.yell.com/img/yell_icon_256x256.png"
                     className="w-10 h-10 pb-2"
                   />
@@ -50,7 +57,10 @@ export const Testimonials = () => {
             <li className="flex flex-col bg-primary/20 p-4 rounded-xl flex-[0_0_100%] md:flex-[0_0_25%]  embla__slide">
               <div>
                 <div className="flex flex-row gap-4">
-                  <img
+                  <Image
+                    alt="yel logo"
+                    width={40}
+                    height={40}
                     src="https://www.yell.com/img/yell_icon_256x256.png"
                     className="w-10 h-10 pb-2"
                   />

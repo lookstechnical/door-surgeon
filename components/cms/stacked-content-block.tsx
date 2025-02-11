@@ -23,7 +23,7 @@ export const StackedContentBlock = ({
             <div className="relative aspect-[1/1] md:aspect-[3/1] rounded-xl overflow-hidden">
               <Image
                 alt="image"
-                width={300}
+                width={700}
                 height={100}
                 src={`/${image}`}
                 className="w-full h-full object-cover"

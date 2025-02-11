@@ -2,6 +2,7 @@
 import { Facebook } from "lucide-react";
 import { Animate } from "../animate/animation";
 import { Whatsapp } from "../icons/whatsapp";
+import Image from "next/image";
 
 export const ContactBlock = ({ heading, desc, highlight, image }: any) => {
   return (
@@ -29,7 +30,13 @@ export const ContactBlock = ({ heading, desc, highlight, image }: any) => {
         <div className="md:pl-10 md:w-1/2 py-4">
           <Animate variant="FadeInBottom">
             <div className="rounded-xl overflow-hidden">
-              <img src={image} />
+              <Image
+                alt="contact us"
+                width={700}
+                height={100}
+                sizes="400px"
+                src={image}
+              />
             </div>
           </Animate>
         </div>

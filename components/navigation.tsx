@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { Whatsapp } from "./icons/whatsapp";
+import Image from "next/image";
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +19,12 @@ export function Navigation() {
               href="/"
               className="text-2xl font-bold text-primary h-20 md:h-28 block"
             >
-              <img
+              <Image
+                alt="The door surgeon logo"
                 src="/img/the-door-suregeon-logo.png"
-                className="h-full w-full"
+                className="h-full w-full object-fit"
+                width={300}
+                height={300}
               />
             </Link>
 
