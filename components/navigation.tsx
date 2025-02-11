@@ -18,7 +18,7 @@ export function Navigation() {
             <div className="flex flex-1 justify-center md:justify-between items-center">
               <Link
                 href="/"
-                className="text-2xl font-bold text-primary h-20 md:h-28 block max-w-[25%]"
+                className="text-2xl font-bold text-primary h-20 md:h-28 block max-w-[60%] md:max-w-[25%]"
               >
                 <Image
                   alt="The door surgeon logo"
