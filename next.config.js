@@ -5,6 +5,35 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
+  async redirects() {
+    return [
+      {
+        source: "/services/door-and-widow-repair/",
+        destination: "/services/door-repair-services",
+        permanent: false,
+      },
+      {
+        source: "/services/door-and-window-instalation/",
+        destination: "/services/door-and-window-installations",
+        permanent: false,
+      },
+      {
+        source: "/services/security",
+        destination: "/services/door-and-window-installations",
+        permanent: false,
+      },
+      {
+        source: "/services/double-glazed-unit-replacement/",
+        destination: "/services/double-glazed-unit-service",
+        permanent: false,
+      },
+      {
+        source: "/services/composite-door-replacement/",
+        destination: "/services/door-repair-services",
+        permanent: false,
+      },
+    ];
+  },
   webpack: (cfg) => {
     cfg.module.rules.push({
       test: /\.md$/,
