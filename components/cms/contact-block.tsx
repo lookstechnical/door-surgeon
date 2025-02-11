@@ -20,7 +20,7 @@ export const ContactBlock = ({
           <p className="pt-6">{desc}</p>
           <div className="flex space-x-4 mt-4">
             <a
-              href="https://www.facebook.com/pages/The-door-surgeon/364962176914907"
+              href="https://www.facebook.com/profile.php?id=61572937736426"
               className="text-primary hover:text-primary-400"
             >
               <Facebook className="h-12 w-12" />

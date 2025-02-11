@@ -19,7 +19,7 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://www.facebook.com/pages/The-door-surgeon/364962176914907"
+                href="https://www.facebook.com/profile.php?id=61572937736426"
                 className="text-primary-200 hover:text-primary-400"
               >
                 <Facebook className="h-6 w-6" />
