@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { Star } from "lucide-react";
 import Link from "next/link";
 
-export const Testimonials = ({ heading, highlight }) => {
+export const Testimonials = ({ heading, highlight }: any) => {
   const [emblaRef] = useEmblaCarousel({ loop: false });
   const [reviews, setReviews] = useState([]);
 
