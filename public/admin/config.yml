@@ -205,6 +205,18 @@ collections:
                     ],
                 }
 
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: object
+            summary: "{{fields.header}}"
+            fields:
+              - {
+                  label: "Highlight",
+                  name: "highlight",
+                  widget: "string",
+                  required: false,
+                }
+              - { label: "Heading", name: "heading", widget: "string" }
   - name: "Settings"
     label: "settings"
     folder: "/content/settings"
