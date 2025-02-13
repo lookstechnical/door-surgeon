@@ -11,6 +11,7 @@ content:
       - services/bifold-patio-door-repairs
       - services/double-glazed-unit-service
       - services/turn-and-tilt-windows-and-doors
+      - services/locksmith
       - services/door-and-window-installations
     heading: For All Your Window and Door Needs
     desc: At The Door Surgeon, we take pride in offering a comprehensive range of
