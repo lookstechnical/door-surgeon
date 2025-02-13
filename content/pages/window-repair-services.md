@@ -47,6 +47,7 @@ content:
       - heading: Foggy Double-Glazing Repairs
         description: Remove condensation and restore clarity to your double-glazed units.
     layout: right
+    color: bg-primary/10
   - type: testimonials
     heading: Our Customers Say
     highlight: Testimonials
