@@ -46,7 +46,7 @@ content:
         description: Restore the functionality and security of your windows.
       - heading: Foggy Double-Glazing Repairs
         description: Remove condensation and restore clarity to your double-glazed units.
-    layout: left
+    layout: right
   - type: testimonials
     heading: Our Customers Say
     highlight: Testimonials
