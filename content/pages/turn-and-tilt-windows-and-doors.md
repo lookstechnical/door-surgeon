@@ -61,10 +61,10 @@ content:
         description: Precise repairs that allow your windows to tilt inwards for
           enhanced ventilation, providing efficient air circulation and comfort.
     layout: right
-    color: bg-primary/5
+    color: bg-primary/10
   - type: checklist
     layout: left
-    color: bg-primary/20
+    color: bg-primary/5
     heading: Smooth, Secure, and Long-Lasting Door Solutions
     highlight: Professional Tilt and Slide Door Repairs
     desc: Our expert tilt and slide door repair services ensure smooth operation,
