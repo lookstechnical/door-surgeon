@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { Star } from "lucide-react";
 import Link from "next/link";
 
-export const Testimonials = () => {
+export const Testimonials = ({ heading, highlight }) => {
   const [emblaRef] = useEmblaCarousel({ loop: false });
   const [reviews, setReviews] = useState([]);
 
@@ -34,8 +34,10 @@ export const Testimonials = () => {
   return (
     <section className="flex md:flex-row container max-w-[1200px] mx-auto py-10 px-4">
       <div className="w-full flex flex-col justify-center items-center">
-        <p className="text-primary">Tesitmonials</p>
-        <h3 className="text-4xl md:text-5xl pb-10">Our Customers Say</h3>
+        <p className="text-primary">{highlight || "Testimonials"}</p>
+        <h3 className="text-4xl md:text-5xl pb-10">
+          {heading || "Our Customers Say"}
+        </h3>
 
         <div ref={emblaRef} className="embla w-full min-h-[300px] ">
           <ul className="flex flex-row gap-4 justify-between embla__container w-full h-full">
