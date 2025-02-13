@@ -35,8 +35,7 @@ content:
     layout: stacked
   - type: checklist
     heading: Fast and Reliable Repair Solutions
-    desc:
-      Understanding the importance of safety and convenience, we offer prompt
+    desc: Understanding the importance of safety and convenience, we offer prompt
       and affordable door repair solutions designed to meet the diverse needs of
       our community. Whether you’re experiencing issues with broken hinges,
       faulty locks, or misaligned door frames, our expert team is ready to
@@ -58,11 +57,12 @@ content:
         description: Fix or replace broken glass panels in your doors.
     layout: left
     color": bg-primary/20
+    color: bg-primary/10
   - type: testimonials
-    heading: ""
+    heading: Our Customers Say
+    highlight: Testimonials
   - type: alert
-    desc:
-      Our ongoing commitment to exceptional service and customer care has led to
+    desc: Our ongoing commitment to exceptional service and customer care has led to
       numerous positive reviews and repeat business throughout West Yorkshire.
       We continuously invest in training and modern equipment to keep up with
       evolving repair technologies and industry standards. If you're in need of
