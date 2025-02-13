@@ -65,8 +65,8 @@ content:
   - type: checklist
     layout: left
     color: bg-primary/20
-    heading: Tilt and slide doors 
-    highlight: Tilt and Turn Doors 
+    heading: Smooth, Secure, and Long-Lasting Door Solutions
+    highlight: Professional Tilt and Slide Door Repairs
     desc: Our expert tilt and slide door repair services ensure smooth operation,
       energy efficiency, and long-term durability. We specialize in fixing
       misaligned patio doors, realigning and adjusting gaps for a perfect fit,
