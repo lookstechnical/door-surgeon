@@ -1,5 +1,6 @@
 ---
-title: The Door Surgeon
+title: "The Door Surgeon :  Door and Window Specialists in Leeds, Bradford,
+  Wakefield and across West Yorkshire"
 slug: /
 seodescription: We perform door repairs and window repairs to a high standard.We
   also do locksmith work and replace double glazed units to all doors and
