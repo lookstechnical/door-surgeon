@@ -83,6 +83,7 @@ export const Testimonials = ({ heading, highlight }: any) => {
           <Link
             href="https://search.google.com/local/reviews?placeid=ChIJn9FGVZrde0gRZAKmmvH4_Mo"
             className="flex flex-row items-center justify-center gap-2 hover:text-primary"
+            rel="nofollow"
           >
             <Image
               alt="Yel logo"
@@ -96,6 +97,7 @@ export const Testimonials = ({ heading, highlight }: any) => {
           <Link
             href="https://www.yell.com/biz/the-door-surgeon-bradford-7061137/"
             className="flex flex-row items-center justify-center gap-2 hover:text-primary"
+            rel="nofollow"
           >
             <Image
               alt="Yel logo"

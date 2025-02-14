@@ -22,6 +22,7 @@ export const ContactBlock = ({
             <a
               href="https://www.facebook.com/profile.php?id=61572937736426"
               className="text-primary hover:text-primary-400"
+              rel="nofollow"
             >
               <Facebook className="h-12 w-12" />
             </a>

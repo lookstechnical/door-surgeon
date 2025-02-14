@@ -21,6 +21,7 @@ export function Footer() {
               <a
                 href="https://www.facebook.com/profile.php?id=61572937736426"
                 className="text-primary-200 hover:text-primary-400"
+                rel="nofollow"
               >
                 <Facebook className="h-6 w-6" />
               </a>
