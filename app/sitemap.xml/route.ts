@@ -25,21 +25,17 @@ const getLastMod = (slug: string[]) => {
 };
 
 export async function GET() {
-  try {
-    const { getServerSideSitemap } = await import("next-sitemap");
-    const slugs = getSlugs();
-    const pages = slugs.map((slug: { slug: string[] }) => {
-      return {
-        loc: trimTrailingSlash(
-          `https://www.thedoorsurgeon.co.uk/${slug.slug.join("/")}`
-        ),
-        lastmod: getLastMod(slug.slug),
-        changefreq: "daily",
-      };
-    });
+  const { getServerSideSitemap } = await import("next-sitemap");
+  const slugs = getSlugs();
+  const pages = slugs.map((slug: { slug: string[] }) => {
+    return {
+      loc: trimTrailingSlash(
+        `https://www.thedoorsurgeon.co.uk/${slug.slug.join("/")}`
+      ),
+      lastmod: getLastMod(slug.slug),
+      changefreq: "daily",
+    };
+  });
 
-    return getServerSideSitemap(pages);
-  } catch (error) {
-    console.log(error);
-  }
+  return getServerSideSitemap(pages);
 }
