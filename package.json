@@ -58,6 +58,7 @@
     "lucide-react": "^0.446.0",
     "motion": "^11.18.1",
     "next": "13.5.1",
+    "next-sitemap": "^4.2.3",
     "next-themes": "^0.3.0",
     "npm": "^11.1.0",
     "postcss": "8.4.30",
