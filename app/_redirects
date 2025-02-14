@@ -1,0 +1,8 @@
+/services/door-and-widow-repair/                                /services/door-repair-services  301
+/services/door-and-window-instalation/                          /services/door-and-window-installations 301
+/services/security/                                             /services/door-and-window-installations 301
+/services/double-glazed-unit-replacement/                       /services/double-glazed-unit-service    301
+/services/composite-door-replacement/                           /services/door-repair-services  301
+/services/24-hour-locksmith/                                    /services/locksmith 301
+/news-and-blog/                                                 /  301
+/news-and-blog/*    /  301
