@@ -9,6 +9,8 @@ import { Testimonials } from "@/components/cms/testimonials";
 import { Heading } from "@/components/cms/title";
 import { getBySlug, getSlugs } from "@/src/utils";
 
+const trimTrailingSlash = (url: string) => url.replace(/\/$/, "");
+
 export async function generateMetadata({ params }: any): Promise<any> {
   const { slug = [] } = params;
   const page = getBySlug(slug);
@@ -17,12 +19,22 @@ export async function generateMetadata({ params }: any): Promise<any> {
     return {
       title: page.title,
       description: page.description,
+      alternates: {
+        canonical: trimTrailingSlash(
+          `https://www.thedoorsurgeon.co.uk/${
+            page.slug === "/" ? "" : page.slug
+          }`
+        ),
+      },
     };
   }
 
   return {
     title: "The Door Surgeon",
     description: "West yourkshire window and door repair",
+    alternates: {
+      canonical: `https://www.thedoorsurgeon.co.uk`,
+    },
   };
 }
 
