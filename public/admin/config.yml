@@ -18,6 +18,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Seo Title", name: "seotitle", widget: "string" }
       - { label: "Seo Description", name: "seodescription", widget: "text" }
       - { label: "Description", name: "description", widget: "markdown" }
       - label: "Content"

@@ -1,9 +1,9 @@
 ---
 title: Door and window installations
 slug: services/door-and-window-installations
-seodescription: Upgrade to energy-efficient, beautifully designed windows that
-  enhance your property’s look and lower energy bills.
-description: We provide expert composite door and UPVC window installation
+seotitle: Door & Window Installations | Leeds & West Yorkshire
+seodescription: Professional door & window installations across Leeds, Bradford & West Yorkshire. Quality fittings for homes & businesses. Contact The Door Surgeon for a free quote!
+description: We provide expert composite door and uPVC window installation
   services in West Yorkshire, enhancing homes with superior security, energy
   efficiency, and modern aesthetics. Our high-quality composite doors offer
   durability and style, while our UPVC windows improve insulation and require
@@ -15,7 +15,8 @@ content:
   - type: hero
     highlight: "Beautiful, Energy-Efficient "
     heading: Windows and Doors Professionally Installed
-    desc: "We provide expert composite door and uPVC window installation services in
+    desc:
+      "We provide expert composite door and uPVC window installation services in
       West Yorkshire, enhancing homes with superior security, energy efficiency,
       and modern aesthetics. Our high-quality composite doors offer durability
       and style, while our uPVC windows improve insulation and require minimal
@@ -28,7 +29,8 @@ content:
     layout: stacked
   - type: checklist
     heading: Composite Door Installation
-    desc: Enhance your home's appearance and security with our expert composite door
+    desc:
+      Enhance your home's appearance and security with our expert composite door
       installation services in West Yorkshire. Our locally trusted team
       specialises in fitting high-quality composite doors that offer superior
       durability, style, and security for both residential and commercial
@@ -67,7 +69,8 @@ content:
     heading: Our Customers Say
     highlight: Testimonials
   - type: alert
-    desc: Choosing our composite door and uPVC window installation services means
+    desc:
+      Choosing our composite door and uPVC window installation services means
       investing in quality, efficiency, and exceptional customer service in
       Leeds, Bradford, Wakefield and across West Yorkshite. With years of
       experience serving the local community, our dedicated team provides

@@ -1,14 +1,8 @@
 ---
 title: Turn and Tilt Windows and Doors
 slug: services/turn-and-tilt-windows-and-doors
-seodescription: Our expert repair services specialise in restoring the
-  functionality of tilt and turn windows and tilt and slide doors across West
-  Yorkshire, including the vibrant Leeds City Centre. We understand that
-  well-maintained windows and doors are essential for energy efficiency and
-  security, which is why our technicians are highly skilled in addressing issues
-  specific to these systems. Whether it’s repairing misaligned mechanisms or
-  replacing faulty components, we ensure that every repair meets the highest
-  quality standards.
+seotitle: Turn & Tilt Window & Door Repairs | Leeds & West Yorkshire
+seodescription: We repair turn & tilt windows and doors across Leeds & West Yorkshire. Fix faulty hinges, locks & handles with expert service from The Door Surgeon. Contact us today!
 description: Our expert repair services specialise in restoring the
   functionality of tilt and turn windows and tilt and slide doors across West
   Yorkshire, including the vibrant Leeds City Centre. We understand that
@@ -20,7 +14,8 @@ description: Our expert repair services specialise in restoring the
 content:
   - type: hero
     heading: Turn and Tilt Windows and Doors
-    desc: Our expert repair services specialize in restoring the functionality of
+    desc:
+      Our expert repair services specialize in restoring the functionality of
       tilt and turn windows and tilt and slide doors across West Yorkshire,
       including the vibrant Leeds City Centre. We understand that
       well-maintained windows and doors are essential for energy efficiency and
@@ -34,7 +29,8 @@ content:
   - type: checklist
     highlight: Tilt and Turn Window Repairs
     heading: Precision Repairs for Long-Lasting Performance
-    desc: Focusing on precision and durability, our services include comprehensive
+    desc:
+      Focusing on precision and durability, our services include comprehensive
       repairs for aluminium tilt and turn windows, ensuring they operate
       smoothly and maintain their sleek design. Our team is equipped to handle
       common issues such as worn hinges, broken seals, and alignment problems
@@ -44,18 +40,21 @@ content:
       security and comfort.
     items:
       - heading: Aluminium and upvc Tilting Window Repairs
-        description: Expert solutions for aluminium tilting windows to restore smooth
+        description:
+          Expert solutions for aluminium tilting windows to restore smooth
           operation, secure fits, and energy efficiency for your tilt and turn
           systems. Common repair needs include addressing stuck mechanisms,
           misalignment, faulty handles, broken gears, or problems with the tilt
           and turn functionality due to wear and tear; often requiring
-          specialized parts and knowledge to repair properly. 
+          specialized parts and knowledge to repair properly.
       - heading: Inward Opening Window Repairs
-        description: Professional repair services that ensure your inward opening tilt
+        description:
+          Professional repair services that ensure your inward opening tilt
           and turn windows function flawlessly, maintaining optimal ventilation
           and easy access.
       - heading: Broken Gear Replacements
-        description: Specialised repairs for broken gears in tilt and turn windows to
+        description:
+          Specialised repairs for broken gears in tilt and turn windows to
           quickly restore accurate movement and dependable perform
       - heading: Tilt Mechanism Fixes
         description: Precise repairs that allow your windows to tilt inwards for
@@ -67,7 +66,8 @@ content:
     color: bg-primary/5
     heading: Smooth, Secure, and Long-Lasting Door Solutions
     highlight: Professional Tilt and Slide Door Repairs
-    desc: Our expert tilt and slide door repair services ensure smooth operation,
+    desc:
+      Our expert tilt and slide door repair services ensure smooth operation,
       energy efficiency, and long-term durability. We specialize in fixing
       misaligned patio doors, realigning and adjusting gaps for a perfect fit,
       and repairing top tracks to restore secure functionality. Additionally, we
@@ -77,21 +77,26 @@ content:
       your tilt and slide doors operate effortlessly.
     items:
       - heading: Misaligned Patio Door Repair
-        description: Expert services to fix misaligned tilt and slide patio doors,
+        description:
+          Expert services to fix misaligned tilt and slide patio doors,
           ensuring smooth operation and a perfect seal for energy efficiency.
       - heading: Realignment and Adjustment Services
-        description: Professional realignment of tilt and slide patio doors to correct
+        description:
+          Professional realignment of tilt and slide patio doors to correct
           uneven gaps and improve the door's overall function and appearance.
       - heading: Top Track Repairs
-        description: Specialised repair solutions for doors that have come off at the
+        description:
+          Specialised repair solutions for doors that have come off at the
           top, restoring proper alignment and secure operation of your patio
           door.
       - heading: Patio Wheels Replacement and Maintenance
-        description: Comprehensive inspection and replacement of worn or damaged patio
+        description:
+          Comprehensive inspection and replacement of worn or damaged patio
           wheels to guarantee effortless sliding and longevity of your door
           system.
       - heading: Track and Roller repairs
-        description: Detailed cleaning, lubrication, and adjustment of tracks and
+        description:
+          Detailed cleaning, lubrication, and adjustment of tracks and
           rollers to maintain peak performance and prevent future issues with
           your tilt and slide patio door.
   - type: testimonials

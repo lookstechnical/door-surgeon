@@ -1,15 +1,8 @@
 ---
 title: Double glazed unit service
 slug: services/double-glazed-unit-service
-seodescription: Looking for expert double glazing unit repairs and glass
-  replacement in West Yorkshire? We specialize in replacing damaged or
-  inefficient double glazed units with high-quality, energy-efficient solutions.
-  Our professional services help improve insulation, reduce energy costs, and
-  enhance security for both residential and commercial properties. With skilled
-  technicians and a tailored approach, we ensure precise installation and
-  long-lasting durability. Upgrade your windows today to boost energy
-  efficiency, curb appeal, and property value. Contact us now for a free
-  consultation and experience trusted, local glass replacement services.
+seotitle: Double Glazed Unit Repairs | Leeds, Bradford & West Yorkshire
+seodescription: Foggy or broken double-glazed windows? Get expert repairs in Leeds & West Yorkshire. Restore insulation & clarity with The Door Surgeon. Call now for a free quote!
 description: Looking for expert **double glazing unit repairs** and **glass
   replacement in West Yorkshire**? We specialize in replacing damaged or
   inefficient double glazed units with **high-quality, energy-efficient

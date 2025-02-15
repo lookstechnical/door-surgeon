@@ -1,7 +1,8 @@
 ---
 title: About
 slug: about
-seodescription: About
+seotitle: About The Door Surgeon | Trusted Door & Window Repair Experts
+seodescription: Learn more about The Door Surgeon – specialists in door and window repairs across Leeds, Bradford & West Yorkshire. Experienced, professional & dedicated to quality service.
 description: About
 content:
   - heading: The Door Surgeon

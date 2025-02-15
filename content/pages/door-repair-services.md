@@ -1,15 +1,8 @@
 ---
 title: Door Repair Services
 slug: services/door-repair-services
-seodescription: Looking for expert door repair services in West Yorkshire? Our
-  trusted company specializes in fast, reliable, and affordable residential and
-  commercial door repairs, ensuring optimal functionality and security. From
-  fixing broken hinges and faulty locks to realigning door frames, our skilled
-  technicians use high-quality materials and the latest techniques for
-  long-lasting results. We also offer emergency door repair services to minimize
-  disruptions and secure your property when you need it most. With a strong
-  reputation for excellence, transparent pricing, and exceptional customer care,
-  we are the go-to door repair specialists in West Yorkshire.
+seotitle: Door Repairs in Leeds & West Yorkshire | Hinges, Locks & More
+seodescription: Need a door repair? We fix hinges, locks, handles & misaligned doors in Leeds, Bradford & West Yorkshire. Fast, reliable service—call The Door Surgeon today!
 description: Looking for expert **door repair services in West Yorkshire**? Our
   trusted company specializes in fast, reliable, and affordable **residential
   and commercial door repairs**, ensuring optimal functionality and security.
@@ -35,7 +28,8 @@ content:
     layout: stacked
   - type: checklist
     heading: Fast and Reliable Repair Solutions
-    desc: Understanding the importance of safety and convenience, we offer prompt
+    desc:
+      Understanding the importance of safety and convenience, we offer prompt
       and affordable door repair solutions designed to meet the diverse needs of
       our community. Whether you’re experiencing issues with broken hinges,
       faulty locks, or misaligned door frames, our expert team is ready to
@@ -62,7 +56,8 @@ content:
     heading: Our Customers Say
     highlight: Testimonials
   - type: alert
-    desc: Our ongoing commitment to exceptional service and customer care has led to
+    desc:
+      Our ongoing commitment to exceptional service and customer care has led to
       numerous positive reviews and repeat business throughout West Yorkshire.
       We continuously invest in training and modern equipment to keep up with
       evolving repair technologies and industry standards. If you're in need of

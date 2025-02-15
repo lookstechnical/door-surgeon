@@ -1,7 +1,8 @@
 ---
 title: Contact
 slug: contact
-seodescription: Contact
+seotitle: Contact Us | Window & Door Repair Experts in West Yorkshire
+seodescription: Need door or window repairs in Leeds, Bradford & beyond? Contact The Door Surgeon today for expert service. Call now or fill out our contact form for a fast response.
 description: Contact
 content:
   - heading: Get in Touch

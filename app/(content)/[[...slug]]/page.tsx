@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: any): Promise<any> {
 
   if (page) {
     return {
-      title: page.title,
-      description: page.description,
+      title: page.seotitle,
+      description: page.seodescription,
       alternates: {
         canonical: trimTrailingSlash(
           `https://www.thedoorsurgeon.co.uk/${
