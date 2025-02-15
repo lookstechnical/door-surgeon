@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: any): Promise<any> {
 
   if (page) {
     return {
-      title: page.seotitle,
+      title: `${page.seotitle} | The Door Surgeon`,
       description: page.seodescription,
       alternates: {
         canonical: trimTrailingSlash(
