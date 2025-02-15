@@ -58,12 +58,12 @@ export const HeroRightImage = ({
           <Animate variant="FadeInBottom">
             <div className="rounded-xl overflow-hidden">
               <Image
-                width={700}
-                height={400}
+                width={471}
+                height={471}
                 alt={`${heading} image`}
                 src={image}
                 priority={index === 0}
-                sizes="(min-width: 1240px) 500px, (min-width: 768px) 50vw, 100vw"
+                sizes="(min-width: 1240px) 471px, (min-width: 768px) 50vw, 100vw"
               />
             </div>
           </Animate>

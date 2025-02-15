@@ -24,8 +24,8 @@ export function Navigation() {
                   alt="The door surgeon logo"
                   src="/img/the-door-suregeon-logo.png"
                   className="h-full w-full object-fit"
-                  width={300}
-                  height={300}
+                  width={284}
+                  height={55}
                 />
               </Link>
 
